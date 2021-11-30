@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+#RewriteCond %{HTTPS} !=on
+
+# Redirect to https version
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteBase /
+
+ErrorDocument 404 /404.html
+
+RewriteCond %{REQUEST_FILENAME} POST
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+
+RewriteRule ^property/([a-zA-Z0-9]+)/([a-zA-Z_-]*)/?$ details.php?id=$1&name=$2 [L,QSA,NC]
+
+RewriteRule ^property-category/([a-zA-Z_-]*)/?$ category-details.php?name=$1 [L,QSA,NC]
+
+
+</IfModule>

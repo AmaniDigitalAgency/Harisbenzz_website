@@ -1,0 +1,148 @@
+.breadcrumb-overview  {
+	background: #FFFFFF;
+	text-align: left;
+	padding: 20px;
+	padding-left: 60px;
+	border-right: 40px solid #000000;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	min-width: 400px;
+	z-index: 10;
+}
+.breadcrumb-overview  h2 {
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.breadcrumb-overview  h5 {
+	color: #383838;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-family: "Gopher", sans-serif;
+}
+.breadcrumb-overview h3.price-details {
+	color: #b27909;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.breadcrumb-overview span {
+	display: block;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+
+.social-media {
+	
+}
+.social-media .social-icons {
+	list-style: none;
+	position: fixed; 
+	top: 200px;
+	right: 0;
+	background: #000000;
+	z-index: 11;
+}
+.social-media .social-icons li {
+	border: 1px solid #000000;
+	background: #FFFFFF;
+	height: 40px;
+	width: 40px;
+	padding: 0 10px;
+	border-bottom: 0 none;
+}
+.social-media .social-icons i {
+	font-size: 22px;
+	color: #000000;
+	line-height: 40px;
+	text-align: center;
+}
+.contact-sidebar {
+  background: url(../images/background/project-bg.png);
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+  margin-top: 50px;
+}
+.contact-sidebar img {
+	margin: 0 auto;
+	margin-left: 30%;
+}
+.contact-sidebar p {
+	color: #999999;
+	margin-top: 10px;
+	text-align: center;
+}
+.contact-sidebar ul {
+	list-style: none; 
+	float: center;
+	text-align: center;
+	margin: 20px auto;
+}
+.contact-sidebar ul li {
+	color: #333333;
+	background: #CCCCCC;
+	border: 2px solid #BBBBBB;
+	width: 40px;
+	height:  40px;
+	display: inline-block;
+	padding: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.contact-sidebar ul li:hover {
+	background: #333333;
+}
+.contact-sidebar ul li i {
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px;
+}
+.contact-sidebar ul li:hover i {
+	color: #DDDDDD;
+}
+
+a.line-button {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  font-family: 'Gopher', sans-serif;
+  font-weight: 400;
+  color: #222222;
+  text-transform: uppercase;
+  margin-top: 30px;
+  border: 1px solid #d7d7d7;
+  padding: 10px 20px;
+  max-width: 250px;
+}
+
+ a.line-button:before{
+  position: absolute;
+  content: '';
+  background: #d7d7d7;
+  width: 55px;
+  height: 1px;
+  top: 20px;
+  right: -48px;
+}
+a.line-button:hover {
+	background: #171717;
+	color: #FFFFFF;
+	border: 1px solid #171717;
+}
+
+
+
+
+
+
+
+
+
