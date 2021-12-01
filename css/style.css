@@ -218,7 +218,7 @@ figure{
 img{
   display: inline-block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @keyframes pulse {
@@ -235,9 +235,9 @@ img{
   display: inline-block;
   font-size: 16px;
   font-family: 'Gopher', Sans Serif;
-  padding: 14px 30px;
+  padding: 10px 30px;
   background: transparent;
-  border: 1px solid #FFFFFF; 
+  border: 1px solid #FFFFFF;
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
@@ -253,10 +253,10 @@ img{
   position: absolute;
   content: '';
   background: #d7d7d7;
-  width: 55px;
+  width: 52px;
   height: 1px;
-  top: 24px;
-  right: -48px;
+  top: 23px;
+  right: -41px;
 }
 
 .theme-btn:hover{
@@ -359,19 +359,19 @@ img{
 .sec-title .top-title{
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: 20px;
   font-family: 'Oswald', sans-serif;
   color: #D5AF36;
-  line-height: 20px;
+  line-height: 19px;
   font-weight: 300;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 
 .sec-title h1{
   position: relative;
   display: block;
-  font-size: 52px;
+  font-size: 66px;
   color: #1B1B1B;
   line-height: 40px;
   font-weight: 700;
@@ -381,7 +381,7 @@ img{
 .sec-title h1 span{
   font-weight: 300;
   color: #D5AF36;
-  font-size: 32px !important;
+  font-size: 43px !important;
   padding-left: 80px;
 }
  
@@ -391,8 +391,8 @@ img{
   background: #D5AF36;
   width: 60px;
   height: 2px;
-  left: 0;
-  top: 72px;
+  /* left: 243px; */
+  top: 64px;
 }
 .sec-title.centred h1:before{
   right: 0px;
@@ -507,11 +507,11 @@ img{
   height: 57px;
   width: 50px;
   line-height: 67px;
-  background: #D5AF36;
+  background: transparent;
   text-align: center;
   cursor: pointer;
   z-index: 1;
-  float: right; 
+  float: right;
 }
 
 .header-style-one .nav-toggler .nav-btn .icon-bar {
@@ -1691,7 +1691,7 @@ img.slider-image {
 .about-section .content-box .text{
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   color: #585858;
   font-weight: 300;
@@ -2591,7 +2591,6 @@ img.slider-image {
   left: 0px;
   top: 0px;
 }
-}
 
 
 .counter-block-one{
@@ -2619,7 +2618,7 @@ img.slider-image {
   font-family: 'Oswald', sans-serif;
   color: #FFFFFF;
   font-weight: 300;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 
@@ -2705,6 +2704,7 @@ img.slider-image {
   position: relative;
   display: block;
   padding-top: 25px;
+  text-align: center;
 }
 
 .team-block-one .lower-content h3{
@@ -2720,6 +2720,8 @@ img.slider-image {
   position: relative;
   display: inline-block;
   color: #1B1B1B;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .team-block-one .lower-content h3 a:hover{
@@ -6863,7 +6865,7 @@ img.slider-image {
   color: #9a9a9a;
   padding: 10px 20px;
   transition: all 500ms ease;
-  text-transform: uppercase; 
+  /* text-transform: uppercase; */
 }
 
 .contact-form-area .form-group textarea{
@@ -6900,8 +6902,8 @@ img.slider-image {
   background: #d7d7d7;
   width: 55px;
   height: 1px;
-  top: 20px;
-  left: -48px;
+  top: 27px;
+  left: -37px;
 }
 
 .contact-form-area .form-group button:hover{
@@ -6999,3 +7001,84 @@ img.slider-image {
 			display: none; 
 		}
   }
+
+
+
+  /* Custom CSS */
+select.form-control.valid {
+  height: 50px !important;
+}
+a.whatsapp-icon {
+  font-size: 38px;
+  margin: 55px;
+  text-align: center;
+}
+a.whatsapp-icon i {
+  color: forestgreen;
+}
+
+
+/* Floating Whatsapp Button */
+.float{
+	position:fixed;
+	width: 45px;
+	height: 45px;
+	bottom: 29px;
+	right: 107px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+}
+
+.my-float{
+	margin-top: 8px;
+}
+.story-section .card{
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background-color: white;
+}
+/* SERVICE BOX ON ABOUT */
+.service-box{
+  padding:20px;
+  margin-bottom:20px;
+  border: 1px solid #d3d3d3;
+}
+.service-box .service-icon{
+  text-align: center;
+  background: #FF7E20;
+  border-radius:10px;
+  font-size:80px;
+  color:#fff;
+  width:50%;
+  height:155px;
+  margin:0 auto;
+  line-height: 157px;
+  transform:rotate(0deg);
+  transition:all 0.99s ease 0s;
+}
+.service-box .service-icon i{
+  transform:rotate(0deg);
+  transition: transform 1s linear 0s;
+}
+
+.service-box .service-detail h5{
+  text-align:center;
+  font-weight: 300;
+  color: #ffffff;
+}
+.service-box .service-detail p{
+  text-align:center;
+  display: block;
+  font-size:14px;
+}
+.service-box:hover  .service-icon{
+  transform:rotate(360deg);
+}
+.service-box:hover  .service-icon i{
+  transform:rotate(-360deg);
+}

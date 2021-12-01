@@ -1,7 +1,7 @@
     <section class="testimonial-section">
         <div class="container">
             <div class="sec-title centered">
-                <div class="count-text">05 </div>	
+                <!-- <div class="count-text">05 </div>	 -->
                 <span class="top-title"> Testimonials </span>
                 <h1 style = "color: #FFFFFF;"> Client <br><span> Feedback.</span></h1>
             </div>
@@ -12,8 +12,8 @@
                     </div>
                     <div class="author"> 
                         <div class="author-info">
-                            <h5>Jane Smith</h5>
-                            <span>CEO, InDesign</span>
+                            <h5>AMANDA DIANA</h5>
+                            <span>Interior Designer</span>
                         </div>
                     </div>
                 </div>

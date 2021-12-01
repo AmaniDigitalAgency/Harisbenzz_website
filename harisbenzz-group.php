@@ -1,5 +1,5 @@
 <?php
-	$page = " About Us";  
+	$page = "About Harisbenzz";  
 	include "header.php"; 
 	include "components/breadcrumb.php"; 
 	include "components/about.php"; 

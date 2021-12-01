@@ -1,4 +1,10 @@
-    <section class="contact-section gray-bg pb-0">
+    <?php
+        include "includes/contactsubmission.php";
+    ?>
+<!-- <a href="https://api.whatsapp.com/send?phone=+256772487258&text=Hello Haris Benzz" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a> -->
+<section class="contact-section gray-bg pb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 content-column">
@@ -6,29 +12,29 @@
                         
                         <div class="info-box clearfix">
                             <div class="single-info">
-                                <div class="icon-box"><i class="flaticon-house"></i></div>
+                                <div class="icon-box"></div>
                                 <h3>Meet Us</h3>
-                                <p>Kisoboka Building, <br>Rest Corner, <br /> Muyenga, Uganda </p>
+                                <p><i class="flaticon-house"></i> Kisoboka Building, Rest Corner, <br /> Muyenga, Uganda </p>
                             </div>
                             <div class="single-info">
-                                <div class="icon-box"><i class="flaticon-phone-call-1"></i></div>
+                                <div class="icon-box"></div>
                                 <h3>Phone</h3>
-                                <p><a href="tel:+880(+1) 1245 - 15487- 258" style = "color: #585858;">(+256 ) 772 - 487- 258</a><br /><a href="tel:+880(+1) 1245 - 15487- 258" style = "color: #585858;"> (+256 ) 772 - 487- 258 </a></p>
+                                <p><i class="flaticon-phone-call-1"></i> <a href="tel:+880(+1) 1245 - 15487- 258" style = "color: #585858;">(+256 ) 772 - 487- 258</a><br /><a href="tel:+880(+1) 1245 - 15487- 258" style = "color: #585858;"><i class="flaticon-phone-call-1"></i> (+256 ) 772 - 487- 258 </a></p>
                             </div>
                             <div class="single-info">
-                                <div class="icon-box"><i class="flaticon-email"></i></div>
+                                <div class="icon-box"></div>
                                 <h3>Email</h3>
-                                <p><a href="admin@harisbenzz.com " style = "color: #585858;"> admin@harisbenzz.com </a><br /><a href="mailto:info@harisbenzz.com" style = "color: #585858;"> info@harisbenzz.com </a></p>
+                                <p><a href="admin@harisbenzz.com " style = "color: #585858;"><i class="flaticon-email"></i> admin@harisbenzz.com </a><br /><a href="mailto:info@harisbenzz.com" style = "color: #585858;"><i class="flaticon-email"></i> info@harisbenzz.com </a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 form-column">
                     <div class="contact-form-area">
-                        <form method="post" action="http://azim.commonsupport.com/Diaco/sendemail.php" id="contact-form"> 
+                        <form method="post" action="" id="contact-form"> 
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                    <input type="text" name="username" placeholder="your name" required>
+                                    <input type="text" name="name" placeholder="your name" required>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                     <input type="email" name="email" placeholder="your mail" required>
@@ -37,16 +43,33 @@
                                     <input type="text" name="phone" placeholder="Phone number" required>
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                    <input type="text" name="subject" placeholder="Subject" required>
+                                <select class="form-control" name="subject">
+                                    <option>I want to buy a house</option>
+                                    <option>I want to sell my property</option>
+                                    <option>I want to rent a house</option>
+                                    <option>I want to rent a commercial property</option>       
+                                <select>
+                                        
+                                    </select>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                     <textarea name="message" placeholder="Message here..."></textarea>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                    <button type="submit" name="submit-form">Submit Now</button>
+                                    <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <button type="submit" name="submit-form">Submit Now</button>
+                                       
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                       
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
+                            
                         </form>
+                        
                     </div>
                 </div>
             </div>
@@ -60,4 +83,3 @@
             </div>
         </div>
     </section>
-	
