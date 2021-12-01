@@ -50,7 +50,7 @@
                             <h4 class="widget-title"> About Us  </h4>
                             <div class="widget-content">
                                 <ul class="list">
-                                        <li><a href="javascript:void(0)"> The Haris Benzz Group </a></li> 
+                                        <li><a href="harisbenzz-group"> The Haris Benzz Group </a></li> 
                                         <li><a href="javascript:void(0)"> Our Team  </a></li>  
                                         <li><a href="javascript:void(0)"> Our Offices  </a></li> 
                                         <li><a href="javascript:void(0)"> In The Media  </a></li> 
@@ -77,11 +77,11 @@
 
 	<div class = "social-media">
 		<ul class = "social-icons">
-			<li class = "facebook" style = "margin-bottom: 25px;"><a href "#" target  = "_blank"><i class = "fab fa-facebook"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-twitter"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-youtube"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-linkedin"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-instagram"></i></a></li> 
+			<li class = "facebook" style = "margin-bottom: 25px;"><a href= "#" target  = "_blank"><i class = "fab fa-facebook"></i></a></li> 
+			<li class = "facebook"><a href ="#" target  = "_blank"> <i class = "fab fa-twitter"></i></a></li> 
+			<li class = "facebook"><a href= "#" target  = "_blank"> <i class = "fab fa-youtube"></i></a></li> 
+			<li class = "facebook"><a href ="#" target  = "_blank"> <i class = "fab fa-linkedin"></i></a></li> 
+			<li class = "facebook"><a href= "#" target  = "_blank"> <i class = "fab fa-instagram"></i></a></li> 
 		</ul>
 	</div>
 
@@ -100,7 +100,6 @@
 <script src="js/parallax.min.js"></script>
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-
 <!--Revolution Slider-->
 <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -141,5 +140,8 @@
 		}
 	})
 </script>
+	
+<script>
+
 </body><!-- End of .page_wrapper -->
 </html>
