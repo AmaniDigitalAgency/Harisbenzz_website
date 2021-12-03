@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // echo"<p class='Error'>Problem in Sending Mail.</p>";
             }
 		?>
-        <p class="artdeco-toast-message">Something went wrong. Please try using username and password.</p>
+        <!-- <p class="artdeco-toast-message">Something went wrong. Please try using username and password.</p>
         <div classs="container p-5">
             <div class="row no-gutters">
                 <div class="col-lg-5 col-md-12 ml-auto">
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         	<!-- <script>
 							window.alert("Message Sent Successfully");
 							</script> -->
