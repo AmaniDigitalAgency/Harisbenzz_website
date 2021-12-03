@@ -13,6 +13,7 @@
 	<link href="css/custom.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <!-- page wrapper -->
 
@@ -76,9 +77,9 @@
 								</li>
 								<li><a href="#"> About Us </a>
 									<ul class="dropdown">
-										<li><a href="javascript:void(0)"> About Haris Benzz </a>
+										<li><a href="harisbenzz-group"> About Haris Benzz </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Team </a>
+										<li><a href="our-team"> Our Team </a>
 										</li>
 										<li><a href="javascript:void(0)"> Our Offices </a>
 										</li>

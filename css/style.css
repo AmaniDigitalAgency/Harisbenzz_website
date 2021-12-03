@@ -235,9 +235,9 @@ img{
   display: inline-block;
   font-size: 16px;
   font-family: 'Gopher', Sans Serif;
-  padding: 14px 30px;
+  padding: 10px 30px;
   background: transparent;
-  border: 1px solid #FFFFFF; 
+  border: 1px solid #FFFFFF;
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
@@ -253,10 +253,10 @@ img{
   position: absolute;
   content: '';
   background: #d7d7d7;
-  width: 55px;
+  width: 52px;
   height: 1px;
-  top: 24px;
-  right: -48px;
+  top: 23px;
+  right: -41px;
 }
 
 .theme-btn:hover{
@@ -507,11 +507,11 @@ img{
   height: 57px;
   width: 50px;
   line-height: 67px;
-  background: #D5AF36;
+  background: transparent;
   text-align: center;
   cursor: pointer;
   z-index: 1;
-  float: right; 
+  float: right;
 }
 
 .header-style-one .nav-toggler .nav-btn .icon-bar {
@@ -2590,7 +2590,6 @@ img.slider-image {
   height: 100%;
   left: 0px;
   top: 0px;
-}
 }
 
 
@@ -6863,7 +6862,7 @@ img.slider-image {
   color: #9a9a9a;
   padding: 10px 20px;
   transition: all 500ms ease;
-  text-transform: uppercase; 
+  /* text-transform: uppercase; */
 }
 
 .contact-form-area .form-group textarea{
@@ -6900,8 +6899,8 @@ img.slider-image {
   background: #d7d7d7;
   width: 55px;
   height: 1px;
-  top: 20px;
-  left: -48px;
+  top: 27px;
+  left: -37px;
 }
 
 .contact-form-area .form-group button:hover{
@@ -6999,3 +6998,39 @@ img.slider-image {
 			display: none; 
 		}
   }
+
+
+
+  /* Custom CSS */
+select.form-control.valid {
+  height: 50px !important;
+}
+a.whatsapp-icon {
+  font-size: 38px;
+  margin: 55px;
+  text-align: center;
+}
+a.whatsapp-icon i {
+  color: forestgreen;
+}
+
+
+/* Floating Whatsapp Button */
+.float{
+	position:fixed;
+	width: 45px;
+	height: 45px;
+	bottom: 29px;
+	right: 107px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+}
+
+.my-float{
+	margin-top: 8px;
+}
