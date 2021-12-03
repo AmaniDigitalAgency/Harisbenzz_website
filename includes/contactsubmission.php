@@ -11,6 +11,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			VALUES ('$name', '$email', '$phone', '$subject', '$message')";
 
 	if ($conn->query($sql) === TRUE) {
+        ini_set("SMTP","mail.gmail.com");
+        ini_set("smtp_port","25");
+        ini_set('sendmail_from', 'samclerkson@gmail.com');
+        ini_set('auth_username', 'samclerkson@gmail.com');
+        ini_set('auth_password', '0770700426');
         $toEmail = "ssebagalanathan@gmail.com";
             $mailHeaders = "From: " . $_POST["name"] . "<". $_POST["email"] .">\r\n";
             if(mail($toEmail, $_POST["subject"], $_POST["mesaage"], $mailHeaders)) {
@@ -19,6 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // echo"<p class='Error'>Problem in Sending Mail.</p>";
             }
 		?>
+        <p class="artdeco-toast-message">Something went wrong. Please try using username and password.</p>
         <div classs="container p-5">
             <div class="row no-gutters">
                 <div class="col-lg-5 col-md-12 ml-auto">
@@ -26,8 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="True">&times;</span>
                         </button>
-                        <h4 class="alert-heading">Well done!</h4>
-                        <p>This is an alert within a column. The column can be made any size at different viewpoints.</p>
+                        <h4 class="alert-heading">Message Sent</h4>
+                        <p>Thanks for reaching out to us. We will get back to you shortly.</p>
                     </div>
                 </div>
             </div>

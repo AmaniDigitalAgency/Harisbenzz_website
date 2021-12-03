@@ -278,11 +278,11 @@
 				</ul>
 			</div>
 			<ul class="social-links">
-				<li><a href="javascript:void(0)">Facebook</a>
+				<li><a href="https://www.facebook.com/harisbenzz">Facebook</a>
 				</li>
 				<li><a href="javascript:void(0)">Linkedin</a>
 				</li>
-				<li><a href="javascript:void(0)">Twitter</a>
+				<li><a href="https://twitter.com/HarisBenzz">Twitter</a>
 				</li>
 				<li><a href="javascript:void(0)">Google +</a>
 				</li>

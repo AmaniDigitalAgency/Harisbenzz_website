@@ -145,8 +145,8 @@ a.line-button {
   background: #d7d7d7;
   width: 55px;
   height: 1px;
-  top: 20px;
-  right: -48px;
+  top: 26px;
+  right: -39px;
 }
 a.line-button:hover {
 	background: #FFFFFF;
@@ -154,14 +154,13 @@ a.line-button:hover {
 	border: 1px solid #222222;
 }
 
-
-
-
-
-
-
-
-
+.about-section .line-button {
+    margin-bottom: 25px !important;
+}
+.story-section .text {
+    font-size: 16px;
+    color: black;
+}
 .header-section.header-main {
 	position: absolute;
 	left: 0;

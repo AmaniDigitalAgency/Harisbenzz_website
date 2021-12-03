@@ -50,7 +50,7 @@
                             <h4 class="widget-title"> About Us  </h4>
                             <div class="widget-content">
                                 <ul class="list">
-                                        <li><a href="javascript:void(0)"> The Haris Benzz Group </a></li> 
+                                        <li><a href="harisbenzz-group"> The Haris Benzz Group </a></li> 
                                         <li><a href="javascript:void(0)"> Our Team  </a></li>  
                                         <li><a href="javascript:void(0)"> Our Offices  </a></li> 
                                         <li><a href="javascript:void(0)"> In The Media  </a></li> 
