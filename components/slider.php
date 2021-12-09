@@ -12,9 +12,9 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 text-center content-column">
                             <div class="inner-column"> 
-                                <h1><img src = "images/logo.png" class = "home-img mx-auto img-fluid"></h1> 
+                                <h1 style="color:white;font-family: Montserrat;font-size: 50px;font-weight: 700;">WE ARE <span style="color:#d5af36">HARISBENZZ</span></h1> 
                                 <div class="btns-box">
-                                    <a href="contact" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
+                                    <a href="harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -31,9 +31,9 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 text-center content-column">
                             <div class="inner-column"> 
-                                <h1><img src = "images/logo.png" class = "home-img mx-auto img-fluid"></h1> 
+                            <h1 style="color:white;font-family: Montserrat;font-size: 50px;font-weight: 700;">WE ARE <span style="color:#d5af36">HARISBENZZ</span></h1> 
                                 <div class="btns-box">
-                                    <a href="contact" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
+                                    <a href="harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -50,9 +50,9 @@
                     <div class="row clearfix">
                         <div class="col-lg-8 col-md-12 col-sm-12 offset-lg-2 text-center content-column">
                             <div class="inner-column"> 
-                                <h1><img src = "images/logo.png" class = "home-img mx-auto img-fluid"></h1> 
+                            <h1 style="color:white;font-family: Montserrat;font-size: 50px;font-weight: 700;">WE ARE <span style="color:#d5af36">HARISBENZZ</span></h1> 
                                 <div class="btns-box">
-                                    <a href="contact" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
+                                    <a href="harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
                                 </div>
                             </div>
                         </div>

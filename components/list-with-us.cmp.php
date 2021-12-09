@@ -1,33 +1,53 @@
-   <section class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12 col-sm-12 title-column">
-                    <div class="title-box sec-title"> 
-                        <span class="top-title"> Sellers </span>
-                        <h1> List  <br><span> With Us. </span></h1>
-											<div class="content-box"> 
-                        <div class="text"> Choosing the correct real estate agent to sell your home is one of the most important decisions you’ll make. It can be the difference between your home sitting on the market for months or selling quickly, for hundreds of thousands if not millions of dollars more. Your home is a very personal, important, and valuable asset, and it can be an emotional and complicated endeavor to sell it, especially in today’s challenging marketplace. Numerous questions and concerns will need to be addressed, and the advice and consultation that you receive can make a tremendous difference in the results. Marketing and advertising, remodeling and/or upgrading, photography, internet exposure, staging, design, floor-plan measurements, videography, timing and presentation, inspections, pre-market exposure, agent outreach and relationships, open houses, pricing, and dozens more nuances and subtleties all make up the difference between failure and a successful sale.  </div>
+<section class="offices-section gray-bg pb-5">
+    <div class="container our-offices-top-inner">
+    
+        <div class="row pl-5 pr-5 py-5 pb-5">
 
-					<div class="text"> 
-						Haris Benzz is truly a full-service brokerage, is not just a real estate agent, he’s a licensed real estate broker, as well as a licensed and practiced attorney and contractor in the State of California. He and his team are experienced and have a proven track record of success, in not just selling homes, but achieving record-breaking results for their clients.   </div> 
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <h1 class="entry-title our-offices-title site-section-title animated fadeInLeft visible" data-aios-reveal="true" data-aios-animation="fadeInLeft" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.6" data-aios-reveal-mobile="false" style="animation-delay: 0s;">
+                            <span>
+                                List <b>WITH US</b>
+                                <i class="title-line"></i>
+                            </span>
+                        </h1>
+                        <div class="our-offices-content our-offices-content-a animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.5" data-aios-reveal-mobile="false" style="animation-delay: 0.5s;">
+                            <p>
+                                    Choosing the correct real estate agent
+                                    to sell your home is one of the most
+                                    important decisions you’ll make. It 
+                                    can be the difference between your home 
+                                    sitting on the market for months or selling quickly,
+                                    for hundreds of thousands if not millions of dollars more.
+                                    Your home is a very personal, important, and valuable asset,
+                                    and it can be an emotional and complicated endeavor to sell
+                                    it, especially in today’s challenging marketplace.<p><br>
+                                <span class="contact-btn"><a href="contact">Get in touch with us</a></span>
+                        </div>
                     </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="row col-balance">
+                            <div class="col-lg-6 col-md-12 col-sm-12 pb-4 animated fadeInLeft">
+                                <img src="images/haris/conceirge/1.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 pb-4">
+                                <img src="images/haris/buziga/2.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <img src="images/haris/1.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <img src="images/haris/fbc.png" alt="">
+                            </div>
+                        </div>
+
                     </div>
                 </div> 
-                <div class="col-lg-5 col-md-12 col-sm-12 image-column">
-                    <figure class="image-box"><img src="images/background/video-bg.jpg" alt=""></figure>
-					<div class = "contact-sidebar">
-						<img src = "images/logo.png" class = "img-fluid mb-3" alt = "Logo" style = "float: center; object-fit: contain;">
-						<p><i class = "fa fa-envelope"></i>  info@harisbenzz.com </p>
-						<p><i class = "fa fa-map-marker"></i> Shop 112, Senana House, Kampala Road </p>
-						<ul>
-							<li class = "facebook"><i class = "fab fa-facebook"></i></li> 
-							<li class = "facebook"><i class = "fab fa-twitter"></i></li> 
-							<li class = "facebook"><i class = "fab fa-instagram"></i></li> 
-							<li class = "facebook"><i class = "fab fa-linkedin"></i></li> 
-							<li class = "facebook"><i class = "fab fa-pinterest"></i></li> 
-						</ul>
-					</div>
-                </div>
             </div>
-        </div>
-    </section>
+            
+
+    </div>
+
+    </div>
+</section>

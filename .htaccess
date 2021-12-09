@@ -1,6 +1,10 @@
 
 RewriteEngine On
-#  Rules
+#  Rules1 Removing http:// url and only allowing https://
+RewriteCond %{HTTP_HOST} harisbenzz\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://harisbenzz.com/$1 [R,L]
+#  Rule2 Removing files extension form the site
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]

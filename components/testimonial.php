@@ -2,7 +2,7 @@
         <div class="container">
             <div class="sec-title centered">
                 <!-- <div class="count-text">05 </div>	 -->
-                <span class="top-title"> Testimonials </span>
+                <span class="top-title"></span>
                 <h1 style = "color: #FFFFFF;"> Client <br><span> Feedback.</span></h1>
             </div>
             <div class="two-item-carousel owl-carousel owl-theme">

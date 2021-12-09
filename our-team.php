@@ -3,7 +3,7 @@
 	include "header.php"; 
 	include "components/breadcrumb.php"; 
 	include "components/our-team.cmp.php";  
-	include "components/testimonial.php";
+	// include "components/testimonial.php";
 ?> 
  
 	

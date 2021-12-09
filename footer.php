@@ -8,10 +8,10 @@
                             <div class="widget-content">
                                 <ul class="list"> 
                                         <li><a href="./"> Home </a></li> 
-                                        <li><a href="listings/php"> Our Listngs </a></li> 
-                                        <li><a href="javascript:void(0)"> Recent Sales  </a></li>  
-                                        <li><a href="javascript:void(0)"> New Development  </a></li>  
-                                        <li><a href="javascript:void(0)"> Interactive Map  </a></li>  
+                                        <li><a href="listings"> Our Listngs </a></li> 
+                                        <li><a href="recent-sales"> Recent Sales  </a></li>  
+                                        <li><a href="new-developments"> New Development  </a></li>  
+                                        <li><a href="interactive-map"> Interactive Map  </a></li>  
                                 </ul>
                             </div>
                         </div>
@@ -21,8 +21,8 @@
                             <h4 class="widget-title"> Buyers </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="javascript:void(0)"> Buy With Us </a></li> 
-                                        <li><a href="listings.php"> Our Listngs </a></li>   
+                                        <li><a href="buy-with-us"> Buy With Us </a></li> 
+                                        <li><a href="listings"> Our Listngs </a></li>   
                                 </ul>
                             </div>
                         </div>
@@ -32,15 +32,15 @@
                             <h4 class="widget-title"> Sellers </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="javascript:void(0)"> List With Us</a></li> 
-                                        <li><a href="javascript:void(0)"> Concierge </a></li> 
-                                        <li><a href="javascript:void(0)"> Marketing </a></li> 
-                                        <li><a href="javascript:void(0)"> Our Numbers </a></li> 
-                                        <li><a href="javascript:void(0)"> Local Exposure </a></li> 
+                                        <li><a href="list-with-us"> List With Us</a></li> 
+                                        <li><a href="concierge"> Concierge </a></li> 
+                                        <li><a href="marketing"> Marketing </a></li> 
+                                        <li><a href="our-numbers"> Our Numbers </a></li> 
+                                        <!-- <li><a href="javascript:void(0)"> Local Exposure </a></li> 
                                         <li><a href="javascript:void(0)"> Global Exposure </a></li> 
                                         <li><a href="javascript:void(0)"> An Online Experience </a></li> 
                                         <li><a href="javascript:void(0)"> Press </a></li> 
-                                        <li><a href="javascript:void(0)"> Industry Recognition </a></li>  
+                                        <li><a href="javascript:void(0)"> Industry Recognition </a></li>   -->
                                 </ul>
                             </div>
                         </div>
@@ -51,10 +51,10 @@
                             <div class="widget-content">
                                 <ul class="list">
                                         <li><a href="harisbenzz-group"> The Haris Benzz Group </a></li> 
-                                        <li><a href="javascript:void(0)"> Our Team  </a></li>  
-                                        <li><a href="javascript:void(0)"> Our Offices  </a></li> 
+                                        <li><a href="our-team"> Our Team  </a></li>  
+                                        <li><a href="our-offices"> Our Offices  </a></li> 
                                         <li><a href="javascript:void(0)"> In The Media  </a></li> 
-                                        <li><a href="javascript:void(0)">Blogs </a></li> 
+                                        <li><a href="blog">Blogs </a></li> 
                                 </ul>
                             </div>
                         </div>
@@ -77,11 +77,10 @@
 
 	<div class = "social-media">
 		<ul class = "social-icons">
-			<li class = "facebook" style = "margin-bottom: 25px;"><a href= "#" target  = "_blank"><i class = "fab fa-facebook"></i></a></li> 
-			<li class = "facebook"><a href ="#" target  = "_blank"> <i class = "fab fa-twitter"></i></a></li> 
-			<li class = "facebook"><a href= "#" target  = "_blank"> <i class = "fab fa-youtube"></i></a></li> 
-			<li class = "facebook"><a href ="#" target  = "_blank"> <i class = "fab fa-linkedin"></i></a></li> 
-			<li class = "facebook"><a href= "#" target  = "_blank"> <i class = "fab fa-instagram"></i></a></li> 
+			<li class = "facebook" style = "margin-bottom: 25px;"><a href= "https://www.facebook.com/harisbenzz" target  = "_blank"><i class = "fab fa-facebook"></i></a></li> 
+			<li class = "Twitter"><a href ="https://twitter.com/haris_benzz" target  = "_blank"> <i class = "fab fa-twitter"></i></a></li> 
+			<li class = "LinkedIn"><a href ="https://www.linkedin.com/in/ACoAADhmPg8BJT-zetFelDh8LSeAJ248Ep8Jdsw?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADhmPg8BJT-zetFelDh8LSeAJ248Ep8Jdsw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BHmfs8mwXQQawpOEzpDw89A%3D%3D" target  = "_blank"> <i class = "fab fa-linkedin"></i></a></li> 
+			<li class = "Instagram"><a href="https://www.instagram.com/harisbenzz/" target  = "_blank"> <i class = "fab fa-instagram"></i></a></li> 
 		</ul>
 	</div>
 
@@ -140,8 +139,5 @@
 		}
 	})
 </script>
-	
-<script>
-
 </body><!-- End of .page_wrapper -->
 </html>

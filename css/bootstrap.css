@@ -4435,6 +4435,7 @@ tbody.collapse.show {
   -ms-flex-direction: column;
   flex-direction: column;
   min-width: 0;
+  box-shadow: 0px 4px 7px rgb(0 0 0 / 20%);
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -4693,7 +4694,7 @@ tbody.collapse.show {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   list-style: none;
   background-color: #e9ecef;
   border-radius: 0.25rem;
@@ -6135,7 +6136,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #ffffff !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,

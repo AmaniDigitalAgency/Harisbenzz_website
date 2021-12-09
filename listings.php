@@ -2,7 +2,8 @@
 	$page = "Listings";  
 	include "header.php"; 
 	include "components/breadcrumb.php"; 
-	include "components/search.php";  
+	include "components/search.php";
+    include "includes/contactsubmission.php";
 ?> 
     <section class="service-style-two alternate-2">
         <div class="container">
@@ -31,10 +32,10 @@
             </div>
                 <div class="col-lg-8 offset-lg-2 col-sm-12 form-column">
                     <div class="contact-form-area">
-                        <form method="post" action="#" id="contact-form"> 
+                        <form method="post" action="" id="inquiry-form"> 
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
-                                    <input type="text" name="username" placeholder="your name" required>
+                                    <input type="text" name="name" placeholder="your name" required>
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
                                     <input type="email" name="email" placeholder="your mail" required>
@@ -43,7 +44,7 @@
                                     <textarea name="message" placeholder="Message here..."></textarea>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                    <button type="submit" name="submit-form">Submit Now</button>
+                                    <button type="submit" name="inquiry-form">Submit Now</button>
                                 </div>
                             </div>
                         </form>

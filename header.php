@@ -26,77 +26,80 @@
 		<div class="outer-container">
 			<div class="outer-box px-5">
 				<div class="row">
-					<div class="col-lg-11 md-display-none">
+					<div class="col-lg-2 md-display-none">
+						<img src="images/small-logo.png" class="log-img" style="height: 35px;" alt="">
+					</div>
+					<div class="col-lg-9 col-md-12 col-sm-12 md-display-none">
 						<nav class="nav-menu">
 							<ul>
 								<li><a href="./">Home  </a>
 								</li>
-								<li><a href="#"> Properties   </a>
+								<li><a class="after" href="#"> Properties   </a>
 									<ul class="dropdown">
 										<li><a href="listings"> Our Listings </a>
 										</li>
-										<li><a href="javascript:void(0)"> Recent Sales  </a>
+										<li><a href="recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="javascript:void(0)"> New Development  </a>
+										<li><a href="new-developments"> New Development  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Interactive Map  </a>
+										<li><a href="interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
 								</li>
-								<li><a href="#"> Buyers  </a>
+								<li><a class="after" href="#"> Buyers  </a>
 									<ul class="dropdown">
-										<li><a href="javascript:void(0)"> Buy With Us </a>
+									<li><a href="buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Neighbourhood Guides  </a>
+										<li><a href="neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Search MLS  </a>
-										</li>
+										<!-- <li><a href="search"> Search MLS  </a>
+										</li> -->
 									</ul>
 								</li>
-								<li><a href="#"> Sellers   </a>
+								<li><a class="after" href="#"> Sellers   </a>
 									<ul class="dropdown">
-										<li><a href="javascript:void(0)"> List With Us </a>
+									<li><a href="list-with-us"> List With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Concierge Type 02</a>
+										<li><a href="concierge"> Concierge</a>
 										</li>
-										<li><a href="javascript:void(0)"> Marketing </a>
+										<li><a href="marketing"> Marketing </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Numbers </a>
+										<li><a href="our-numbers"> Our Numbers </a>
 										</li>
-										<li><a href="javascript:void(0)"> Local Exposure </a>
+										<!-- <li><a href="local-exposure"> Local Exposure </a>
 										</li>
-										<li><a href="javascript:void(0)"> Global Exposure </a>
+										<li><a href="global-exposure"> Global Exposure </a>
 										</li>
-										<li><a href="javascript:void(0)"> An Online Presence </a>
+										<li><a href="online-presence"> An Online Presence </a>
 										</li>
-										<li><a href="javascript:void(0)"> Press </a>
+										<li><a href="press"> Press </a>
 										</li>
-										<li><a href="javascript:void(0)"> Industry Recognition </a>
-										</li>
+										<li><a href="industriy-recognition"> Industry Recognition </a>
+										</li> -->
 									</ul>
 								</li>
-								<li><a href="#"> About Us </a>
+								<li><a class="after" href="#"> About Us </a>
 									<ul class="dropdown">
 										<li><a href="harisbenzz-group"> About Haris Benzz </a>
 										</li>
 										<li><a href="our-team"> Our Team </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Offices </a>
+										<li><a href="our-offices"> Our Offices </a>
 										</li>
-										<li><a href="javascript:void(0)"> What Our Clients Are Saying </a>
+										<li><a href="testimonials"> What Our Clients Are Saying </a>
 										</li>
 									</ul>
 								</li>
-								<li><a href="javascript:void(0)">In The Media </a>
+								<li class="after"><a href="in-the-media"> In The Media </a> 
 								</li>
-								<li><a href="javascript:void(0)"> Blog</a>
+								<li class="after"><a href="blog">Blog </a> 
 								</li>
-								<li><a href="contact">Contact Us </a>
+								<li class="after"><a href="contact">Contact Us </a> 
 								</li>
 							</ul>
 						</nav>
 					</div>
-					<div class="col-lg-1">
+					<div class="col-lg-1 small-nav">
 						<div class="pull-rights nav-toggler">
 							<button class="nav-btn"> <span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -130,61 +133,62 @@
 									<ul>
 										<li><a href="listings"> Our Listings </a>
 										</li>
-										<li><a href="javascript:void(0)"> Recent Sales  </a>
+										<li><a href="recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="javascript:void(0)"> New Development  </a>
+										<li><a href="new-developments"> New Development  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Interactive Map  </a>
+										<li><a href="interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
 								</li>
 								<li class="dropdown"><a href="javascript:void(0)"> Buyers </a>
 									<ul>
-										<li><a href="javascript:void(0)"> Buy With Us </a>
+										<li><a href="buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Neighbourhood Guides  </a>
+										<li><a href="neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Search MLS  </a>
-										</li>
+										<!-- <li><a href="search"> Search MLS  </a>
+										</li> -->
 									</ul>
 								</li>
 								<li class="dropdown"><a href="javascript:void(0)"> Sellers</a>
 									<ul>
-										<li><a href="javascript:void(0)"> List With Us </a>
+										<li><a href="list-with-us"> List With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Concierge Type 02</a>
+										<li><a href="concierge"> Concierge</a>
 										</li>
-										<li><a href="javascript:void(0)"> Marketing </a>
+										<li><a href="marketing"> Marketing </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Numbers </a>
+										<li><a href="our-numbers"> Our Numbers </a>
 										</li>
-										<li><a href="javascript:void(0)"> Local Exposure </a>
+										<!-- <li><a href="local-exposure"> Local Exposure </a>
 										</li>
-										<li><a href="javascript:void(0)"> Global Exposure </a>
+										<li><a href="global-exposure"> Global Exposure </a>
 										</li>
-										<li><a href="javascript:void(0)"> An Online Presence </a>
+										<li><a href="online-presence"> An Online Presence </a>
 										</li>
-										<li><a href="javascript:void(0)"> Press </a>
+										<li><a href="press"> Press </a>
 										</li>
-										<li><a href="javascript:void(0)"> Industry Recognition </a>
-										</li>
+										<li><a href="industriy-recognition"> Industry Recognition </a>
+										</li> -->
 									</ul>
 								</li>
-								<li class=""><a href="javascript:void(0)"> About Us </a>
+								<li class="dropdown">
+									<a href="javascript:void(0)"> About Us </a>
 									<ul>
-										<li><a href="javascript:void(0)"> About Haris Benzz </a>
+										<li><a href="harisbenzz-group"> About Haris Benzz </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Team </a>
+										<li><a href="our-team"> Our Team </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Offices </a>
+										<li><a href="our-offices"> Our Offices </a>
 										</li>
-										<li><a href="javascript:void(0)"> What Our Clients Are Saying </a>
+										<li><a href="testimonials"> What Our Clients Are Saying </a>
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="javascript:void(0)"> In The Media </a> 
+								<li class=""><a href="in-the-media"> In The Media </a> 
 								</li>
-								<li class=""><a href="javascript:void(0)">Blog </a> 
+								<li class=""><a href="blog">Blog </a> 
 								</li>
 								<li class=""><a href="contact">Contact Us </a> 
 								</li>
@@ -215,76 +219,72 @@
 				<ul class="clearfix">
 					<li class="current dropdown"><a href="javascript:void(0)"> Properties </a>
 						<ul>
-							<li><a href="listings"> Our Listngs </a>
-							</li>
-							<li><a href="javascript:void(0)"> Recent Sales  </a>
-							</li>
-							<li><a href="javascript:void(0)"> New Development  </a>
-							</li>
-							<li><a href="javascript:void(0)"> Interactive Map  </a>
-							</li>
+							<li><a href="listings"> Our Listings </a>
+										</li>
+										<li><a href="recent-sales"> Recent Sales  </a>
+										</li>
+										<li><a href="new-developments"> New Development  </a>
+										</li>
+										<li><a href="interactive-map"> Interactive Map  </a>
+										</li>
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> Buyers </a>
 						<ul>
-							<li><a href="javascript:void(0)"> Buy With Us </a>
-							</li>
-							<li><a href="javascript:void(0)"> Neighbourhood Guides  </a>
-							</li>
-							<li><a href="javascript:void(0)"> Search  </a>
-							</li>
+						<li><a href="buy-with-us"> Buy With Us </a>
+										</li>
+										<li><a href="neighborhood-guides"> Neighbourhood Guides  </a>
+										</li>
+										<!-- <li><a href="search"> Search MLS  </a>
+										</li> -->
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> Sellers </a>
 						<ul>
-							<li><a href="javascript:void(0)"> Concierge Type 02</a>
-							</li>
-							<li><a href="javascript:void(0)"> Marketing </a>
-							</li>
-							<li><a href="javascript:void(0)"> Our Numbers </a>
-							</li>
-							<li><a href="javascript:void(0)"> Local Exposure </a>
-							</li>
-							<li><a href="javascript:void(0)"> Global Exposure </a>
-							</li>
-							<li><a href="javascript:void(0)"> An Online Experience </a>
-							</li>
-							<li><a href="javascript:void(0)"> Press </a>
-							</li>
-							<li><a href="javascript:void(0)"> Industry Recognition </a>
-							</li>
+							<li><a href="list-with-us"> List With Us </a>
+										</li>
+										<li><a href="concierge"> Concierge</a>
+										</li>
+										<li><a href="marketing"> Marketing </a>
+										</li>
+										<li><a href="our-numbers"> Our Numbers </a>
+										</li>
+										<!-- <li><a href="local-exposure"> Local Exposure </a>
+										</li>
+										<li><a href="global-exposure"> Global Exposure </a>
+										</li>
+										<li><a href="online-presence"> An Online Presence </a>
+										</li>
+										<li><a href="press"> Press </a>
+										</li>
+										<li><a href="industriy-recognition"> Industry Recognition </a>
+										</li> -->
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> About Us </a>
 						<ul>
-							<li><a href="javascript:void(0)"> The haris Benzz Group </a>
-							</li>
-							<li><a href="javascript:void(0)"> Services </a>
-							</li>
-							<li><a href="javascript:void(0)"> Our Team </a>
-							</li>
-							<li><a href="javascript:void(0)"> Our Offices </a>
-							</li>
-							<li><a href="javascript:void(0)"> What Our Clients Are Saying </a>
-							</li>
+						<li><a href="harisbenzz-group"> About Haris Benzz </a>
+										</li>
+										<li><a href="our-team"> Our Team </a>
+										</li>
+										<li><a href="our-offices"> Our Offices </a>
+										</li>
+										<li><a href="testimonials"> What Our Clients Are Saying </a>
+										</li>
 						</ul>
 					</li>
-					<li><a href="javascript:void(0)"> In The Media </a> 
-					</li>
-					<li><a href="javascript:void(0)">Blog </a> 
-					</li>
-					<li><a href="javascript:void(0)">Contact Us </a> 
-					</li>
+					<li class=""><a href="in-the-media"> In The Media </a> 
+								</li>
+								<li class=""><a href="blog">Blog </a> 
+								</li>
+								<li class=""><a href="contact">Contact Us </a> 
+								</li>
 				</ul>
 			</div>
 			<ul class="social-links">
 				<li><a href="https://www.facebook.com/harisbenzz">Facebook</a>
 				</li>
-				<li><a href="javascript:void(0)">Linkedin</a>
-				</li>
 				<li><a href="https://twitter.com/HarisBenzz">Twitter</a>
-				</li>
-				<li><a href="javascript:void(0)">Google +</a>
 				</li>
 				<li><a href="javascript:void(0)">Instagram</a>
 				</li>

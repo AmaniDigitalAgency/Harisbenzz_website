@@ -2,7 +2,7 @@
         <div class="container">
             <div class="sec-title border-bottom pb-5" style = "margin-bottom: 60px;" > 
                     <span class="top-title" style = "color: #FFFFFF;"> Our Numbers </span>
-                    <h1 style = "color: #FFFFFF;" class = "py-3"> Why Work <br><span>With Us.</span></h1>
+                    <h1 style = "color: #FFFFFF;" class = "py-3 why-w"> Why Work <br><span>With Us.</span></h1>
                 </div>
             <div class="row">
                 <div class="row">

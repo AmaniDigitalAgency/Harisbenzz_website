@@ -83,10 +83,11 @@
   width: 100%;
   padding: 20px;
   margin-top: 50px;
+  text-align: center;
 }
 .contact-sidebar img {
 	margin: 0 auto;
-	margin-left: 30%;
+	margin: auto;
 }
 .contact-sidebar p {
 	color: #999999;
@@ -115,9 +116,9 @@
 	background: #333333;
 }
 .contact-sidebar ul li i {
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
-	line-height: 40px;
+	line-height: 36px;
 }
 .contact-sidebar ul li:hover i {
 	color: #DDDDDD;
@@ -144,8 +145,8 @@ a.line-button {
   background: #d7d7d7;
   width: 55px;
   height: 1px;
-  top: 20px;
-  right: -48px;
+  top: 26px;
+  right: -39px;
 }
 a.line-button:hover {
 	background: #FFFFFF;
@@ -153,14 +154,13 @@ a.line-button:hover {
 	border: 1px solid #222222;
 }
 
-
-
-
-
-
-
-
-
+.about-section .line-button {
+    margin-bottom: 25px !important;
+}
+.story-section .text {
+    font-size: 16px;
+    color: black;
+}
 .header-section.header-main {
 	position: absolute;
 	left: 0;
@@ -263,13 +263,13 @@ a.line-button:hover {
 
 .header-main .nav-menu ul li a:after {
 	position: absolute;
-	left: -10px; 
-	top: 22px;
-	height: 10px;
+	left: -10px;
+	top: 16px;
+	height: 17px;
 	width: 1px;
 	background: #FFFFFF;
-	content: ""; 
-	opacity: 1; 
+	content: "";
+	opacity: 1;
 }
 
 
@@ -663,7 +663,9 @@ a.line-button:hover {
 .banner-section.style-three .social-nav li a:hover{
 	color:#ffffff;
 }
-
+.social-media .social-icons li:hover {
+    background-color: #d5af36;
+}
 
 
 
