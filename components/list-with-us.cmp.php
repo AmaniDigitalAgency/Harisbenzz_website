@@ -32,7 +32,7 @@
                                 <img src="images/haris/conceirge/1.png" alt="">
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12 pb-4">
-                                <img src="images/haris/buziga/2.jpg" alt="">
+                                <img src="images/haris/BUZIGA/2.JPG" alt="">
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
                                 <img src="images/haris/1.jpg" alt="">
