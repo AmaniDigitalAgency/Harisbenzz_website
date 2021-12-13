@@ -1,8 +1,6 @@
-<link href="<?=$url;?>css/style.css" rel="stylesheet">
-	<link href="<?=$url;?>css/custom.css" rel="stylesheet">
-	<link href="<?=$url;?>css/responsive.css" rel="stylesheet">
-</head>
+
 <!-- page wrapper -->
+
 
 <body class="boxed_wrapper">
 	<!-- .preloader -->
@@ -13,77 +11,80 @@
 		<div class="outer-container">
 			<div class="outer-box px-5">
 				<div class="row">
-					<div class="col-lg-11 md-display-none">
+					<div class="col-lg-2 md-display-none">
+						<img src="<?= $url?>images/small-logo.png" class="log-img" style="height: 35px;" alt="">
+					</div>
+					<div class="col-lg-9 col-md-12 col-sm-12 md-display-none">
 						<nav class="nav-menu">
 							<ul>
-								<li><a href="<?=$url;?>">Home  </a>
+								<li><a href="<?= $url?>">Home  </a>
 								</li>
-								<li><a href="#"> Properties   </a>
+								<li><a class="after" href="#"> Properties   </a>
 									<ul class="dropdown">
-										<li><a href="<?=$url;?>listings"> Our Listings </a>
+										<li><a href="<?= $url?>listings"> Our Listings </a>
 										</li>
-										<li><a href="javascript:void(0)"> Recent Sales  </a>
+										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="javascript:void(0)"> New Development  </a>
+										<li><a href="<?= $url?>new-developments"> New Development  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Interactive Map  </a>
+										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
 								</li>
-								<li><a href="#"> Buyers  </a>
+								<li><a class="after" href="#"> Buyers  </a>
 									<ul class="dropdown">
-										<li><a href="javascript:void(0)"> Buy With Us </a>
+									<li><a href="<?= $url?>buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Neighbourhood Guides  </a>
+										<li><a href="<?= $url?>neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Search MLS  </a>
+										<!-- <li><a href="search"> Search MLS  </a>
+										</li> -->
+									</ul>
+								</li>
+								<li><a class="after" href="#"> Sellers   </a>
+									<ul class="dropdown">
+									<li><a href="<?= $url?>sellers/list-with-us"> List With Us </a>
+										</li>
+										<li><a href="<?= $url?>sellers/concierge"> Concierge</a>
+										</li>
+										<li><a href="<?= $url?>sellers/marketing"> Marketing </a>
+										</li>
+										<li><a href="<?= $url?>sellers/our-numbers"> Our Numbers </a>
+										</li>
+										<!-- <li><a href="local-exposure"> Local Exposure </a>
+										</li>
+										<li><a href="global-exposure"> Global Exposure </a>
+										</li>
+										<li><a href="online-presence"> An Online Presence </a>
+										</li>
+										<li><a href="press"> Press </a>
+										</li>
+										<li><a href="industriy-recognition"> Industry Recognition </a>
+										</li> -->
+									</ul>
+								</li>
+								<li><a class="after" href="#"> About Us </a>
+									<ul class="dropdown">
+										<li><a href="<?= $url?>about/harisbenzz-group"> About Haris Benzz </a>
+										</li>
+										<li><a href="<?= $url?>about/our-team"> Our Team </a>
+										</li>
+										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
+										</li>
+										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
 										</li>
 									</ul>
 								</li>
-								<li><a href="#"> Sellers   </a>
-									<ul class="dropdown">
-										<li><a href="javascript:void(0)"> List With Us </a>
-										</li>
-										<li><a href="javascript:void(0)"> Concierge Type 02</a>
-										</li>
-										<li><a href="javascript:void(0)"> Marketing </a>
-										</li>
-										<li><a href="javascript:void(0)"> Our Numbers </a>
-										</li>
-										<li><a href="javascript:void(0)"> Local Exposure </a>
-										</li>
-										<li><a href="javascript:void(0)"> Global Exposure </a>
-										</li>
-										<li><a href="javascript:void(0)"> An Online Presence </a>
-										</li>
-										<li><a href="javascript:void(0)"> Press </a>
-										</li>
-										<li><a href="javascript:void(0)"> Industry Recognition </a>
-										</li>
-									</ul>
+								<li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
 								</li>
-								<li><a href="#"> About Us </a>
-									<ul class="dropdown">
-										<li><a href="javascript:void(0)"> About Haris Benzz </a>
-										</li>
-										<li><a href="javascript:void(0)"> Our Team </a>
-										</li>
-										<li><a href="javascript:void(0)"> Our Offices </a>
-										</li>
-										<li><a href="javascript:void(0)"> What Our Clients Are Saying </a>
-										</li>
-									</ul>
+								<li class="after"><a href="<?= $url?>blog.php">Blog </a> 
 								</li>
-								<li><a href="javascript:void(0)">In The Media </a>
-								</li>
-								<li><a href="javascript:void(0)"> Blog</a>
-								</li>
-								<li><a href="avascript:void(0)">Contact Us </a>
+								<li class="after"><a href="<?= $url?>contact">Contact Us </a> 
 								</li>
 							</ul>
 						</nav>
 					</div>
-					<div class="col-lg-1">
+					<div class="col-lg-1 small-nav">
 						<div class="pull-rights nav-toggler">
 							<button class="nav-btn"> <span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -98,8 +99,8 @@
 		<div class="sticky-header">
 			<div class="container clearfix">
 				<figure class="logo-box">
-					<a href="./">
-						<img src="images/small-logo.png" style="height: 35px;" alt="">
+					<a href="<?= $url?>">
+						<img src="<?= $url?>images/small-logo.png" style="height: 35px;" alt="">
 					</a>
 				</figure>
 				<div class="menu-area">
@@ -113,67 +114,68 @@
 						</div>
 						<div class="navbar-collapse collapse clearfix">
 							<ul class="navigation clearfix">
-								<li class="current dropdown"><a href="listings.php"> Properties </a>
+								<li class="current dropdown"><a href="<?= $url?>listings"> Properties </a>
 									<ul>
-										<li><a href="listings.php"> Our Listings </a>
+										<li><a href="<?= $url?>listings"> Our Listings </a>
 										</li>
-										<li><a href="javascript:void(0)"> Recent Sales  </a>
+										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="javascript:void(0)"> New Development  </a>
+										<li><a href="<?= $url?>new-developments"> New Development  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Interactive Map  </a>
+										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
 								</li>
-								<li class="dropdown"><a href="buy-with-us.php"> Buyers </a>
+								<li class="dropdown"><a href="javascript:void(0)"> Buyers </a>
 									<ul>
-										<li><a href="javascript:void(0)"> Buy With Us </a>
+										<li><a href="<?= $url?>buyers/buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Neighbourhood Guides  </a>
+										<li><a href="<?= $url?>buyers/neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
-										<li><a href="javascript:void(0)"> Search MLS  </a>
-										</li>
+										<!-- <li><a href="search"> Search MLS  </a>
+										</li> -->
 									</ul>
 								</li>
 								<li class="dropdown"><a href="javascript:void(0)"> Sellers</a>
 									<ul>
-										<li><a href="javascript:void(0)"> List With Us </a>
+										<li><a href="<?= $url?>buyers/list-with-us"> List With Us </a>
 										</li>
-										<li><a href="javascript:void(0)"> Concierge Type 02</a>
+										<li><a href="<?= $url?>buyers/concierge"> Concierge</a>
 										</li>
-										<li><a href="javascript:void(0)"> Marketing </a>
+										<li><a href="<?= $url?>buyers/marketing"> Marketing </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Numbers </a>
+										<li><a href="<?= $url?>buyers/our-numbers"> Our Numbers </a>
 										</li>
-										<li><a href="javascript:void(0)"> Local Exposure </a>
+										<!-- <li><a href="local-exposure"> Local Exposure </a>
 										</li>
-										<li><a href="javascript:void(0)"> Global Exposure </a>
+										<li><a href="global-exposure"> Global Exposure </a>
 										</li>
-										<li><a href="javascript:void(0)"> An Online Presence </a>
+										<li><a href="online-presence"> An Online Presence </a>
 										</li>
-										<li><a href="javascript:void(0)"> Press </a>
+										<li><a href="press"> Press </a>
 										</li>
-										<li><a href="javascript:void(0)"> Industry Recognition </a>
-										</li>
+										<li><a href="industriy-recognition"> Industry Recognition </a>
+										</li> -->
 									</ul>
 								</li>
-								<li class=""><a href="javascript:void(0)"> About Us </a>
+								<li class="dropdown">
+									<a href="javascript:void(0)"> About Us </a>
 									<ul>
-										<li><a href="javascript:void(0)"> About Haris Benzz </a>
+										<li><a href="<?= $url?>about/harisbenzz-group"> About Haris Benzz </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Team </a>
+										<li><a href="<?= $url?>about/our-team"> Our Team </a>
 										</li>
-										<li><a href="javascript:void(0)"> Our Offices </a>
+										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="javascript:void(0)"> What Our Clients Are Saying </a>
+										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="javascript:void(0)"> In The Media </a> 
+								<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
 								</li>
-								<li class=""><a href="javascript:void(0)">Blog </a> 
+								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
-								<li class=""><a href="contact.php">Contact Us </a> 
+								<li class=""><a href="<?= $url?>contact">Contact Us </a> 
 								</li>
 							</ul>
 						</div>
@@ -193,7 +195,7 @@
 			<div class="logo-box centred">
 				<a href="javascript:void(0)">
 					<figure>
-						<img src="images/logo.png" alt="">
+						<img src="<?= $url?>images/logo.png" alt="">
 					</figure>
 				</a>
 			</div>
@@ -202,76 +204,72 @@
 				<ul class="clearfix">
 					<li class="current dropdown"><a href="javascript:void(0)"> Properties </a>
 						<ul>
-							<li><a href="listings.php"> Our Listngs </a>
-							</li>
-							<li><a href="javascript:void(0)"> Recent Sales  </a>
-							</li>
-							<li><a href="javascript:void(0)"> New Development  </a>
-							</li>
-							<li><a href="javascript:void(0)"> Interactive Map  </a>
-							</li>
+							<li><a href="listings"> Our Listings </a>
+										</li>
+										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
+										</li>
+										<li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li>
+										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
+										</li>
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> Buyers </a>
 						<ul>
-							<li><a href="javascript:void(0)"> Buy With Us </a>
-							</li>
-							<li><a href="javascript:void(0)"> Neighbourhood Guides  </a>
-							</li>
-							<li><a href="javascript:void(0)"> Search  </a>
-							</li>
+						<li><a href="<?= $url?>buy-with-us"> Buy With Us </a>
+										</li>
+										<li><a href="<?= $url?>neighborhood-guides"> Neighbourhood Guides  </a>
+										</li>
+										<!-- <li><a href="search"> Search MLS  </a>
+										</li> -->
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> Sellers </a>
 						<ul>
-							<li><a href="javascript:void(0)"> Concierge Type 02</a>
-							</li>
-							<li><a href="javascript:void(0)"> Marketing </a>
-							</li>
-							<li><a href="numbers.php"> Our Numbers </a>
-							</li>
-							<li><a href="javascript:void(0)"> Local Exposure </a>
-							</li>
-							<li><a href="javascript:void(0)"> Global Exposure </a>
-							</li>
-							<li><a href="javascript:void(0)"> An Online Experience </a>
-							</li>
-							<li><a href="javascript:void(0)"> Press </a>
-							</li>
-							<li><a href="javascript:void(0)"> Industry Recognition </a>
-							</li>
+							<li><a href="<?= $url?>sellers/list-with-us"> List With Us </a>
+										</li>
+										<li><a href="<?= $url?>sellers/concierge"> Concierge</a>
+										</li>
+										<li><a href="<?= $url?>sellers/marketing"> Marketing </a>
+										</li>
+										<li><a href="<?= $url?>sellers/our-numbers"> Our Numbers </a>
+										</li>
+										<!-- <li><a href="local-exposure"> Local Exposure </a>
+										</li>
+										<li><a href="global-exposure"> Global Exposure </a>
+										</li>
+										<li><a href="online-presence"> An Online Presence </a>
+										</li>
+										<li><a href="press"> Press </a>
+										</li>
+										<li><a href="industriy-recognition"> Industry Recognition </a>
+										</li> -->
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> About Us </a>
 						<ul>
-							<li><a href="javascript:void(0)"> The haris Benzz Group </a>
-							</li>
-							<li><a href="services.php"> Services </a>
-							</li>
-							<li><a href="javascript:void(0)"> Our Team </a>
-							</li>
-							<li><a href="javascript:void(0)"> Our Offices </a>
-							</li>
-							<li><a href="clients.php"> What Our Clients Are Saying </a>
-							</li>
+						<li><a href="<?= $url?>about/harisbenzz-group"> About Haris Benzz </a>
+										</li>
+										<li><a href="<?= $url?>about/our-team"> Our Team </a>
+										</li>
+										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
+										</li>
+										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
+										</li>
 						</ul>
 					</li>
-					<li><a href="javascript:void(0)"> In The Media </a> 
-					</li>
-					<li><a href="javascript:void(0)">Blog </a> 
-					</li>
-					<li><a href="javascript:void(0)">Contact Us </a> 
-					</li>
+					<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li>
+								<li class=""><a href="<?= $url?>blog">Blog </a> 
+								</li>
+								<li class=""><a href="<?= $url?>contact">Contact Us </a> 
+								</li>
 				</ul>
 			</div>
 			<ul class="social-links">
-				<li><a href="javascript:void(0)">Facebook</a>
+				<li><a href="https://www.facebook.com/harisbenzz">Facebook</a>
 				</li>
-				<li><a href="javascript:void(0)">Linkedin</a>
-				</li>
-				<li><a href="javascript:void(0)">Twitter</a>
-				</li>
-				<li><a href="javascript:void(0)">Google +</a>
+				<li><a href="https://twitter.com/HarisBenzz">Twitter</a>
 				</li>
 				<li><a href="javascript:void(0)">Instagram</a>
 				</li>

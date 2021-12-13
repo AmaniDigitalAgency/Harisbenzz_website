@@ -1,4 +1,4 @@
-    <section class="testimonial-section">
+    <section class="testimonial-section wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
         <div class="container">
             <div class="sec-title centered">
                 <!-- <div class="count-text">05 </div>	 -->

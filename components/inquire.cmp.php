@@ -1,4 +1,4 @@
-<section class="contact-section form-inquire pb-0">
+<section class="contact-section form-inquire pb-0  animated wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms">
         <div class="container">
             <div class="row animated fadeInLeft"> 
             <div class="col-lg-4 offset-lg-2 col-md-12 content-column">

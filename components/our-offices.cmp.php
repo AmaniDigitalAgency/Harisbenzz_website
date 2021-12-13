@@ -18,8 +18,8 @@
         </div>
         <div class="our-offices-top-photo">
 
-		    <canvas width="634" height="363" style="background-image: url(&quot;images/main-slider/slider-3.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>
-            <canvas width="634" height="363" style="background-image: url(&quot;images/main-slider/slide-7.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>                    <!--[aios_element]<canvas width="637" height="413" style="background-image: url('{{theme_dir}}/images/our-offices-2.jpg');" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0.2s" data-aios-animation-reset="false" data-aios-animation-offset="0.1"></canvas>[/aios_element]-->
+		    <canvas width="634" height="363" style="background-image: url(&quot;<?= $url?>images/main-slider/slider-3.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>
+            <canvas width="634" height="363" style="background-image: url(&quot;<?= $url?>images/main-slider/slide-7.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>                    <!--[aios_element]<canvas width="637" height="413" style="background-image: url('{{theme_dir}}/images/our-offices-2.jpg');" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0.2s" data-aios-animation-reset="false" data-aios-animation-offset="0.1"></canvas>[/aios_element]-->
     </div>
 
     </div>
@@ -32,7 +32,7 @@
             
             <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
                 <div class="overlay-container">
-                    <img src="images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
+                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
                     <div class="img-overlay">
                         <div class="content">
                             <h3>Office Cafe</h3>
@@ -43,7 +43,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
                 <div class="overlay-container">
-                    <img src="images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
+                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
                     <div class="img-overlay">
                         <div class="content">
                             <h3>Office Cafe</h3>
@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
                 <div class="overlay-container">
-                    <img src="images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
+                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
                     <div class="img-overlay">
                         <div class="content">
                             <h3>Office Cafe</h3>

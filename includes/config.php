@@ -9,6 +9,7 @@
 	$dbName = "harisbenzz_haris";
 	date_default_timezone_set("Africa/Kampala");
 	$db = new mysqli($dbServerName, $dbUsername, $dbPassword, $dbName);
-	$url   = "http://harisbenzz.com/";	
+	// $url   = "http://harisbenzz.com/";	
+	$url   = "http://localhost/harisbenzz_website/";	
 	include 'site-functions.php';
 ?>

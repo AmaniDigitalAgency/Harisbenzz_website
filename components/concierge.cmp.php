@@ -1,11 +1,11 @@
-   <section class="about-section animated slideInLeft"  data-aios-staggered-child="true" data-aios-animation="slideInLeft" data-aios-animation-delay="0s" data-aios-reveal-mobile="false" style="animation-delay: 0s;">
+   <section class="about-section " data-aios-staggered-child="true" data-aios-animation="slideInLeft" data-aios-animation-delay="0s" data-aios-reveal-mobile="false" style="animation-delay: 0s;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12 title-column card p-5">
-                    <div class="title-box sec-title"  data-aios-staggered-child="true" data-aios-animation="slideInLeft" data-aios-animation-delay="0s" data-aios-reveal-mobile="false" style="animation-delay: 0s;"> 
+                    <div class="title-box sec-title"> 
                         <span class="top-title animated slideInUp"  data-aios-staggered-child="true" data-aios-animation="slideInLeft" data-aios-animation-delay="0s" data-aios-reveal-mobile="false" style="animation-delay: 0s;"> Sellers </span>
                         <h1 class="animated slideInLeft"> concierge  </h1>
-						<div class="content-box mt-5 animated slideInLeft"> 
+						<div class="content-box mt-5 wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms"> 
                             <div class="text"> 
                                 <b>Not happy with the way your building/home looks?.</b><br>
                                 We swiftly and commendably upsurge your home’s 
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="title-box sec-title mt-3">
-						<div class="content-box animated slideInUp"> 
+						<div class="content-box wow fadeInDown animated" data-wow-delay="200ms" data-wow-duration="1500ms"> 
                             <div class="text">  
                                 <p>
                                     <h5 class="mb-3" style="color: #d5af36;font-weight: bold;font-family: cursive;">We have no hidden fees or interest charged.</h5>
@@ -44,7 +44,7 @@
                 </div> 
                 
                 <div class="col-lg-5 col-md-12 col-sm-12 image-column" >
-                    <div class="wrapper animated slideInUp">
+                    <div class="wrapper wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="images">
                             <div class="img1"></div>
                             <div class="img2"></div>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
 
-                    <div class="wrapper animated slideInDown">
+                    <div class="wrapper wow fadeInDown animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="imgs">
                             <div class="img3"></div>
                             <div class="img5"></div>
@@ -77,10 +77,10 @@
                 </div>
             </div>
 
-            <div class="concierge-services visible mt-5" data-aios-staggered-parent="true" data-aios-animation-offset="0.1" data-aios-animation-reset="false" data-aios-reveal-mobile="false">
+            <div class="concierge-services visible mt-5  animated wow fadeInDown animated" data-wow-delay="100ms" data-wow-duration="1500ms">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-10 col-md-12 col-sm-12 animated slideInLeft m-auto" data-aios-staggered-child="true" data-aios-animation="slideInLeft" data-aios-animation-delay="2s" data-aios-reveal-mobile="false" style="animation-delay: 0s;">
+                        <div class="col-lg-10 col-md-12 col-sm-12 m-auto">
                             <h2>Select Services Might Include:</h2>
                             <ul>                                                
                                 <li><i class="fa fa-check"></i> Deep Cleaning</li>

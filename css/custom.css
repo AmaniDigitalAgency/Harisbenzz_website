@@ -794,7 +794,7 @@ a.line-button:hover {
 .our-offices-title span b {
     font-size: 60px !important;
     font-weight: 400 !important;
-    line-height: 75px !important;
+    line-height: 0px !important;
     display: block;
     text-align: right;
     margin-top: -18px;
@@ -818,11 +818,11 @@ a.line-button:hover {
     max-width: 100%;
 }
 .our-offices-title span i.title-line {
-    width: 400%;
-    left: calc(-398% - 15px) !important;
+    width: 383%;
+    left: calc(-380% - 15px) !important;
     bottom: auto !important;
     top: 82px !important;
-    background: #b0b0b0 !important;
+    background: #d5af36 !important;
 }
 
 span i.title-line {
@@ -1265,26 +1265,27 @@ span i.title-line {
     right: 0;
     top: 0;
     background-color: black;
-    height: 100%;
+    height: 89%;
     bottom: 0;
     opacity: .9;
 }
 .marketing {
     transform: translate(13%, 170%);
     position: absolute;
+    top: 56px;
 }
 .numbers {
     transform: translate(13%, 82%);
     position: absolute;
 }
 .marketing h2{
-	font-size: 55px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Futura;
-    letter-spacing: 6px;
-    font-weight: 700;
-    color: white;
+	font-size: 37px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Futura;
+	letter-spacing: 6px;
+	font-weight: 700;
+	color: white;
 }
 .generic-blockquote {
     padding: 5px 50px 5px 30px;
@@ -1309,7 +1310,7 @@ span i.title-line {
     font-size: 80px !important;
     margin: 60px auto 0 !important;
     width: 90%;
-    text-align: center !important;
+    text-align: left!important;
     letter-spacing: -3.35px;
     color: #1b1b1b !important;
     font-weight: 600 !important;

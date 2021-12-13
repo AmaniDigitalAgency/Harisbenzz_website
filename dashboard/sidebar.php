@@ -50,6 +50,27 @@
 								</ul>
 							</div>
 						</li> 
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#blogs">
+								<i class="fas fa-pen"></i>
+								<p> Blogs  </p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="blogs">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="?page=new-post">
+											<span class="sub-item"> New Blog Post </span>
+										</a>
+									</li>
+									<li>
+										<a href="?page=posts">
+											<span class="sub-item"> All Posts </span>
+										</a>
+									</li> 
+								</ul>
+							</div>
+						</li> 
 						
 						 
 						<li class="mx-4 mt-2">

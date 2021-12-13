@@ -14,7 +14,7 @@
                             <div class="inner-column"> 
                                 <h1 style="color:white;font-family: Montserrat;font-size: 50px;font-weight: 700;">WE ARE <span style="color:#d5af36">HARISBENZZ</span></h1> 
                                 <div class="btns-box">
-                                    <a href="harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
+                                    <a href="tel:+256" class="theme-btn btn-style-one"><span class="txt"> Call Us <i class="arrow flaticon-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                             <div class="inner-column"> 
                             <h1 style="color:white;font-family: Montserrat;font-size: 50px;font-weight: 700;">WE ARE <span style="color:#d5af36">HARISBENZZ</span></h1> 
                                 <div class="btns-box">
-                                    <a href="harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
+                                    <a href="<?= $url ?>about/harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                             <div class="inner-column"> 
                             <h1 style="color:white;font-family: Montserrat;font-size: 50px;font-weight: 700;">WE ARE <span style="color:#d5af36">HARISBENZZ</span></h1> 
                                 <div class="btns-box">
-                                    <a href="harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
+                                    <a href="<?= $url ?>about/harisbenzz-group" class="theme-btn btn-style-one"><span class="txt"> Learn More <i class="arrow flaticon-right"></i></span></a>
                                 </div>
                             </div>
                         </div>

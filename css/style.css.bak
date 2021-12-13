@@ -82,6 +82,9 @@
   border:none;
   outline:none;
 }
+.about-check {
+    color: #d4ae35;
+}
 
 
 /*** 
@@ -184,18 +187,34 @@ p{
   position: relative;
   font-family: 'Gopher', sans-serif;
   color: #585858;
+  font-size: 16px;
   margin-bottom: 0px;
   font-style: normal;
   transition: all 500ms ease;
 }
 
+
 h1,h2,h3,h4,h5,h6 {
   position:relative;
-  font-family: 'Oswald', Sans-Serif;
-  font-weight: 400;
-  color: #1B1B1B;
+  font-family: 'Roboto';
+  color: #1b1b1b;
+  letter-spacing: 0px;
   margin: 0px;
   transition: all 500ms ease;
+}
+h3.line-button {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    font-family: 'Gopher', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 30px;
+    /* border: 1px solid #222222; */
+    padding: 10px 20px;
+    max-width: 250px;
+    /* background: #222222; */
 }
 
 
@@ -363,36 +382,41 @@ img{
   font-family: 'Oswald', sans-serif;
   color: #D5AF36;
   line-height: 19px;
+  padding-left: 35px;
   font-weight: 300;
-  margin-bottom: 5px;
+  margin-bottom: -6px;
   text-transform: uppercase;
 }
 
 .sec-title h1{
   position: relative;
   display: block;
-  font-size: 66px;
+  font-size: 58px;
   color: #1B1B1B;
-  line-height: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
+  line-height: 4;
+  text-transform: capitalize;
+  line-height: 34px;
+  font-family: Roboto Bold;
 }
 
 .sec-title h1 span{
   font-weight: 300;
   color: #D5AF36;
-  font-size: 43px !important;
-  padding-left: 80px;
+  line-height: 0;
+  font-size: 38px !important;
+  padding-left: 88px;
+  font-family: 'Gopher', sans-serif;
+  /* padding-top: 5px !important; */
 }
  
 .sec-title h1 span:before{
   position: absolute;
   content: '';
-  background: #D5AF36;
+  /* background: #D5AF36; */
   width: 60px;
-  height: 2px;
+  height: 3px;
   /* left: 243px; */
-  top: 64px;
+  top: 71px;
 }
 .sec-title.centred h1:before{
   right: 0px;
@@ -1007,7 +1031,7 @@ width: 100%;
 }
 
 .sticky-header .main-menu .navigation > li > a{
-  padding: 14px 30px 16px 30px !important;
+  padding: 14px 29px 16px 30px !important;
 }
 
 .sticky-header .main-menu .navigation > li > a{
@@ -1721,7 +1745,7 @@ img.slider-image {
 .about-section .content-box{
   position: relative;
   display: block;
-  padding-top: 50px;
+  padding-top: 1px;
 }
 
 .about-section .content-box a:hover{
@@ -1735,8 +1759,9 @@ img.slider-image {
   margin-top: 3px;
 }
 
-.about-section .image-box img{
+.market img{
   width: 100%;
+  height: 300px !important;
 }
 
 
@@ -1800,6 +1825,7 @@ img.slider-image {
 .service-block-one{
   position: relative;
   display: block;
+  margin-bottom: 25px;
   max-height: 320px;
   border: 2px solid #CCCCCC;
 }
@@ -1893,7 +1919,7 @@ img.slider-image {
 .service-block-one .inner-box .caption-box h4 a {
   position: relative;
   display: block;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
   font-weight: 600;
@@ -2256,8 +2282,8 @@ img.slider-image {
 .work-section .product-tab-btns li:after{
   position: absolute;
   content: '';
-  background: #abcfc1;
-  width: 29px;
+  /* background: #abcfc1; */
+  width: 49px;
   height: 1px;
   top: 18px;
   right: -79px;
@@ -2710,9 +2736,10 @@ img.slider-image {
 .team-block-one .lower-content h3{
   position: relative;
   display: block;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 30px;
   color: #1B1B1B;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -4485,7 +4512,8 @@ img.slider-image {
 .page-title{
   position: relative;
   width: 100%;
-  padding: 194px 0px 126px 0px;
+  background-image: url(../images/main-slider/breadcrumb.jpg) !important;
+  padding: 140px 0px 126px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4843,22 +4871,22 @@ img.slider-image {
 .page-title .info-content{
   position: absolute;
   display: block;
-  padding: 25px;
-  background: #FFFFFF; 
+  padding: 24px;
+  background: #FFFFFF;
   left: 0;
-  top: 180px;   
-  min-height: 280px; 
-  z-index: 3; 
-  text-align: left;  
-  z-index: 5;  
+  top: 180px;
+  min-height: 278px;
+  z-index: 3;
+  text-align: left;
+  z-index: 5;
 }
 #infoContent { 
 }
 .page-title .info-content h5 {
-	font-size: 24px;
-	margin-bottom: 10px; 
+	font-size: 22px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
-	font-weight: 600; 
+	font-weight: 600;
 }
 
 .page-title .info-content h6 {
@@ -4874,18 +4902,18 @@ img.slider-image {
 }
 .close-content {
 	position: absolute;
-	left: 168px; 
-	top: 120px; 
+	left: 182px;
+	top: 119px;
 	width: 280px;
 	background: #101010;
-	padding: 10px; 
+	padding: 10px;
 	font-size: 18px;
-	color: #ffffff; 
-	text-align: center; 
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg); 
-  cursor: pointer; 
+	color: #ffffff;
+	text-align: center;
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	cursor: pointer;
 }
 .page-title .info-content .openContent {
 	position: absolute;
@@ -7046,6 +7074,7 @@ a.whatsapp-icon i {
 .service-box{
   padding:20px;
   margin-bottom:20px;
+  background: #4c3c01ad;
   border: 1px solid #d3d3d3;
 }
 .service-box .service-icon{

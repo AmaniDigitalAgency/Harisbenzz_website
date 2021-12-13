@@ -1,4 +1,4 @@
-    <footer class="main-footer" style="background-image: url(images/background/footer-bg-a.jpg); background-position: top center; background-attachment: fixed; background-size: cover;">
+    <footer class="main-footer wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(<?= $url?>images/background/footer-bg-a.jpg); background-position: top center; background-attachment: fixed; background-size: cover;">
         <div class="container">
             <div class="widget-section">
                 <div class="row">
@@ -7,11 +7,11 @@
                             <h4 class="widget-title"> Properties </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="./"> Home </a></li> 
-                                        <li><a href="listings"> Our Listngs </a></li> 
-                                        <li><a href="recent-sales"> Recent Sales  </a></li>  
-                                        <li><a href="new-developments"> New Development  </a></li>  
-                                        <li><a href="interactive-map"> Interactive Map  </a></li>  
+                                        <li><a href="<?= $url?>"> Home </a></li> 
+                                        <li><a href="<?= $url?>listings"> Our Listngs </a></li> 
+                                        <li><a href="<?= $url?>recent-sales"> Recent Sales  </a></li>  
+                                        <li><a href="<?= $url?>new-developments"> New Development  </a></li>  
+                                        <li><a href="<?= $url?>interactive-map"> Interactive Map  </a></li>  
                                 </ul>
                             </div>
                         </div>
@@ -21,8 +21,8 @@
                             <h4 class="widget-title"> Buyers </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="buy-with-us"> Buy With Us </a></li> 
-                                        <li><a href="listings"> Our Listngs </a></li>   
+                                        <li><a href="<?= $url?>buyers/buy-with-us"> Buy With Us </a></li> 
+                                        <li><a href="<?= $url?>buyers/listings"> Our Listngs </a></li>   
                                 </ul>
                             </div>
                         </div>
@@ -32,10 +32,10 @@
                             <h4 class="widget-title"> Sellers </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="list-with-us"> List With Us</a></li> 
-                                        <li><a href="concierge"> Concierge </a></li> 
-                                        <li><a href="marketing"> Marketing </a></li> 
-                                        <li><a href="our-numbers"> Our Numbers </a></li> 
+                                        <li><a href="<?= $url?>sellers/list-with-us"> List With Us</a></li> 
+                                        <li><a href="<?= $url?>sellers/concierge"> Concierge </a></li> 
+                                        <li><a href="<?= $url?>sellers/marketing"> Marketing </a></li> 
+                                        <li><a href="<?= $url?>sellers/our-numbers"> Our Numbers </a></li> 
                                         <!-- <li><a href="javascript:void(0)"> Local Exposure </a></li> 
                                         <li><a href="javascript:void(0)"> Global Exposure </a></li> 
                                         <li><a href="javascript:void(0)"> An Online Experience </a></li> 
@@ -50,11 +50,10 @@
                             <h4 class="widget-title"> About Us  </h4>
                             <div class="widget-content">
                                 <ul class="list">
-                                        <li><a href="harisbenzz-group"> The Haris Benzz Group </a></li> 
-                                        <li><a href="our-team"> Our Team  </a></li>  
-                                        <li><a href="our-offices"> Our Offices  </a></li> 
-                                        <li><a href="javascript:void(0)"> In The Media  </a></li> 
-                                        <li><a href="blog">Blogs </a></li> 
+                                        <li><a href="<?= $url?>about/harisbenzz-group"> The Haris Benzz Group </a></li> 
+                                        <li><a href="<?= $url?>about/our-team"> Our Team  </a></li>  
+                                        <li><a href="<?= $url?>about/our-offices"> Our Offices  </a></li> 
+                                        <li><a href="<?= $url?>blog">Blogs </a></li> 
                                 </ul>
                             </div>
                         </div>
@@ -62,7 +61,7 @@
                 </div>
             </div>
             <div class="footer-bottom centred border-top pt-3">
-                <div class="copyright">&copy; <a href="javascript:void(0)"> HARIS BENZZ </a> 2021. All Rights Reserved. </div>
+                <div class="copyright">&copy; <a href="<?= $url?>"> HARIS BENZZ </a> 2021. All Rights Reserved. </div>
             </div>
         </div>
     </footer>
@@ -87,35 +86,35 @@
 
 
 <!-- jequery plugins -->
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="<?= $url?>js/jquery.js"></script>
+<script src="<?= $url?>js/popper.min.js"></script>
+<script src="<?= $url?>js/bootstrap.min.js"></script>
 
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/validation.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src="<?= $url?>js/owl.js"></script>
+<script src="<?= $url?>js/wow.js"></script>
+<script src="<?= $url?>js/validation.js"></script>
+<script src="<?= $url?>js/jquery.fancybox.js"></script>
+<script src="<?= $url?>js/appear.js"></script>
+<script src="<?= $url?>js/parallax.min.js"></script>
+<script src="<?= $url?>js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="<?= $url?>js/owl.carousel.min.js"></script>
 <!--Revolution Slider-->
-<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="revolution/js/revolution.extension.actions.min.js"></script>
-<script src="revolution/js/revolution.extension.carousel.min.js"></script>
-<script src="revolution/js/revolution.extension.kenburn.min.js"></script>
-<script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
-<script src="revolution/js/revolution.extension.migration.min.js"></script>
-<script src="revolution/js/revolution.extension.navigation.min.js"></script>
-<script src="revolution/js/revolution.extension.parallax.min.js"></script>
-<script src="revolution/js/revolution.extension.slideanims.min.js"></script>
-<script src="revolution/js/revolution.extension.video.min.js"></script>
-<script src="js/main-slider-script.js"></script>
+<script src="<?= $url?>revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="<?= $url?>revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.actions.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.carousel.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.kenburn.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.migration.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.navigation.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.parallax.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.slideanims.min.js"></script>
+<script src="<?= $url?>revolution/js/revolution.extension.video.min.js"></script>
+<script src="<?= $url?>js/main-slider-script.js"></script>
 
 <!-- main-js -->
-<script src="js/script.js"></script>
-<script src="js/custom.js"></script>
+<script src="<?= $url?>js/script.js"></script>
+<script src="<?= $url?>js/custom.js"></script>
 <script>
 	function showHideInfoContent(option){
 		if(option==='hide'){

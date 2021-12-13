@@ -1,4 +1,8 @@
-<?php include "includes/dbh.inc.php"; include "includes/fetch_data.inc.php"; ?>
+<?php 
+include "includes/dbh.inc.php"; 
+include "includes/fetch_data.inc.php"; 
+$url   = "http://localhost/harisbenzz_website/";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,12 +11,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Haris Benzz</title>
-	<link rel="stylesheet" href="fonts/stylesheet.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" /> 
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="<?= $url?>fonts/stylesheet.css" />
+	<link rel="stylesheet" href="<?= $url?>css/font-awesome.min.css" /> 
+	<link href="<?= $url?>css/style.css" rel="stylesheet">
+	<link href="<?= $url?>css/custom.css" rel="stylesheet">
+	<link href="<?= $url?>css/responsive.css" rel="stylesheet">
+	<link rel="icon" href="<?= $url?>images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <!-- page wrapper -->
@@ -27,30 +31,30 @@
 			<div class="outer-box px-5">
 				<div class="row">
 					<div class="col-lg-2 md-display-none">
-						<img src="images/small-logo.png" class="log-img" style="height: 35px;" alt="">
+						<a href="<?= $url?>"><img src="<?= $url?>images/small-logo.png" class="log-img" style="height: 35px;" alt=""></a>
 					</div>
 					<div class="col-lg-9 col-md-12 col-sm-12 md-display-none">
 						<nav class="nav-menu">
 							<ul>
-								<li><a href="./">Home  </a>
+								<li><a href="<?= $url?>">Home  </a>
 								</li>
 								<li><a class="after" href="#"> Properties   </a>
 									<ul class="dropdown">
-										<li><a href="listings"> Our Listings </a>
+										<li><a href="<?= $url?>listings"> Our Listings </a>
 										</li>
-										<li><a href="recent-sales"> Recent Sales  </a>
+										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="new-developments"> New Development  </a>
+										<li><a href="<?= $url?>new-developments"> New Development  </a>
 										</li>
-										<li><a href="interactive-map"> Interactive Map  </a>
+										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
 								</li>
 								<li><a class="after" href="#"> Buyers  </a>
 									<ul class="dropdown">
-									<li><a href="buy-with-us"> Buy With Us </a>
+									<li><a href="<?= $url?>buyers/buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="neighborhood-guides"> Neighbourhood Guides  </a>
+										<li><a href="<?= $url?>buyers/neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
 										<!-- <li><a href="search"> Search MLS  </a>
 										</li> -->
@@ -58,13 +62,13 @@
 								</li>
 								<li><a class="after" href="#"> Sellers   </a>
 									<ul class="dropdown">
-									<li><a href="list-with-us"> List With Us </a>
+									<li><a href="<?= $url?>sellers/list-with-us"> List With Us </a>
 										</li>
-										<li><a href="concierge"> Concierge</a>
+										<li><a href="<?= $url?>sellers/concierge"> Concierge</a>
 										</li>
-										<li><a href="marketing"> Marketing </a>
+										<li><a href="<?= $url?>sellers/marketing"> Marketing </a>
 										</li>
-										<li><a href="our-numbers"> Our Numbers </a>
+										<li><a href="<?= $url?>sellers/our-numbers"> Our Numbers </a>
 										</li>
 										<!-- <li><a href="local-exposure"> Local Exposure </a>
 										</li>
@@ -80,21 +84,21 @@
 								</li>
 								<li><a class="after" href="#"> About Us </a>
 									<ul class="dropdown">
-										<li><a href="harisbenzz-group"> About Haris Benzz </a>
+										<li><a href="<?= $url?>about/harisbenzz-group"> About Haris Benzz </a>
 										</li>
-										<li><a href="our-team"> Our Team </a>
+										<li><a href="<?= $url?>about/our-team"> Our Team </a>
 										</li>
-										<li><a href="our-offices"> Our Offices </a>
+										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="testimonials"> What Our Clients Are Saying </a>
+										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
 										</li>
 									</ul>
 								</li>
-								<li class="after"><a href="in-the-media"> In The Media </a> 
+								<li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
 								</li>
-								<li class="after"><a href="blog">Blog </a> 
+								<li class="after"><a href="<?= $url?>blog">Blog </a> 
 								</li>
-								<li class="after"><a href="contact">Contact Us </a> 
+								<li class="after"><a href="<?= $url?>contact">Contact Us </a> 
 								</li>
 							</ul>
 						</nav>
@@ -114,8 +118,8 @@
 		<div class="sticky-header">
 			<div class="container clearfix">
 				<figure class="logo-box">
-					<a href="./">
-						<img src="images/small-logo.png" style="height: 35px;" alt="">
+					<a href="<?= $url?>">
+						<img src="<?= $url?>images/small-logo.png" style="height: 35px;" alt="">
 					</a>
 				</figure>
 				<div class="menu-area">
@@ -129,23 +133,23 @@
 						</div>
 						<div class="navbar-collapse collapse clearfix">
 							<ul class="navigation clearfix">
-								<li class="current dropdown"><a href="listings"> Properties </a>
+								<li class="current dropdown"><a href="<?= $url?>listings"> Properties </a>
 									<ul>
-										<li><a href="listings"> Our Listings </a>
+										<li><a href="<?= $url?>listings"> Our Listings </a>
 										</li>
-										<li><a href="recent-sales"> Recent Sales  </a>
+										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="new-developments"> New Development  </a>
+										<li><a href="<?= $url?>new-developments"> New Development  </a>
 										</li>
-										<li><a href="interactive-map"> Interactive Map  </a>
+										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
 								</li>
 								<li class="dropdown"><a href="javascript:void(0)"> Buyers </a>
 									<ul>
-										<li><a href="buy-with-us"> Buy With Us </a>
+										<li><a href="<?= $url?>buyers/buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="neighborhood-guides"> Neighbourhood Guides  </a>
+										<li><a href="<?= $url?>buyers/neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
 										<!-- <li><a href="search"> Search MLS  </a>
 										</li> -->
@@ -153,13 +157,13 @@
 								</li>
 								<li class="dropdown"><a href="javascript:void(0)"> Sellers</a>
 									<ul>
-										<li><a href="list-with-us"> List With Us </a>
+										<li><a href="<?= $url?>sellers/list-with-us"> List With Us </a>
 										</li>
-										<li><a href="concierge"> Concierge</a>
+										<li><a href="<?= $url?>sellers/concierge"> Concierge</a>
 										</li>
-										<li><a href="marketing"> Marketing </a>
+										<li><a href="<?= $url?>sellers/marketing"> Marketing </a>
 										</li>
-										<li><a href="our-numbers"> Our Numbers </a>
+										<li><a href="<?= $url?>sellers/our-numbers"> Our Numbers </a>
 										</li>
 										<!-- <li><a href="local-exposure"> Local Exposure </a>
 										</li>
@@ -176,21 +180,21 @@
 								<li class="dropdown">
 									<a href="javascript:void(0)"> About Us </a>
 									<ul>
-										<li><a href="harisbenzz-group"> About Haris Benzz </a>
+										<li><a href="<?= $url?>about/harisbenzz-group"> About Haris Benzz </a>
 										</li>
-										<li><a href="our-team"> Our Team </a>
+										<li><a href="<?= $url?>about/our-team"> Our Team </a>
 										</li>
-										<li><a href="our-offices"> Our Offices </a>
+										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="testimonials"> What Our Clients Are Saying </a>
+										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="in-the-media"> In The Media </a> 
+								<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
 								</li>
-								<li class=""><a href="blog">Blog </a> 
+								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
-								<li class=""><a href="contact">Contact Us </a> 
+								<li class=""><a href="<?= $url?>contact">Contact Us </a> 
 								</li>
 							</ul>
 						</div>
@@ -208,9 +212,9 @@
 			</div>
 			<!-- logo -->
 			<div class="logo-box centred">
-				<a href="javascript:void(0)">
+				<a href="<?= $url?>">
 					<figure>
-						<img src="images/logo.png" alt="">
+						<img src="<?= $url?>images/logo.png" alt="">
 					</figure>
 				</a>
 			</div>
@@ -219,21 +223,21 @@
 				<ul class="clearfix">
 					<li class="current dropdown"><a href="javascript:void(0)"> Properties </a>
 						<ul>
-							<li><a href="listings"> Our Listings </a>
+							<li><a href="<?= $url?>listings"> Our Listings </a>
 										</li>
-										<li><a href="recent-sales"> Recent Sales  </a>
+										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="new-developments"> New Development  </a>
+										<li><a href="<?= $url?>new-developments"> New Development  </a>
 										</li>
-										<li><a href="interactive-map"> Interactive Map  </a>
+										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 						</ul>
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> Buyers </a>
 						<ul>
-						<li><a href="buy-with-us"> Buy With Us </a>
+						<li><a href="<?= $url?>buyers/buy-with-us"> Buy With Us </a>
 										</li>
-										<li><a href="neighborhood-guides"> Neighbourhood Guides  </a>
+										<li><a href="<?= $url?>buyers/neighborhood-guides"> Neighbourhood Guides  </a>
 										</li>
 										<!-- <li><a href="search"> Search MLS  </a>
 										</li> -->
@@ -241,13 +245,13 @@
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> Sellers </a>
 						<ul>
-							<li><a href="list-with-us"> List With Us </a>
+							<li><a href="<?= $url?>sellers/list-with-us"> List With Us </a>
 										</li>
-										<li><a href="concierge"> Concierge</a>
+										<li><a href="<?= $url?>sellers/concierge"> Concierge</a>
 										</li>
-										<li><a href="marketing"> Marketing </a>
+										<li><a href="<?= $url?>sellers/marketing"> Marketing </a>
 										</li>
-										<li><a href="our-numbers"> Our Numbers </a>
+										<li><a href="<?= $url?>sellers/our-numbers"> Our Numbers </a>
 										</li>
 										<!-- <li><a href="local-exposure"> Local Exposure </a>
 										</li>
@@ -263,21 +267,21 @@
 					</li>
 					<li class="dropdown"><a href="javascript:void(0)"> About Us </a>
 						<ul>
-						<li><a href="harisbenzz-group"> About Haris Benzz </a>
+						<li><a href="<?= $url?>about/harisbenzz-group"> About Haris Benzz </a>
 										</li>
-										<li><a href="our-team"> Our Team </a>
+										<li><a href="<?= $url?>about/our-team"> Our Team </a>
 										</li>
-										<li><a href="our-offices"> Our Offices </a>
+										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="testimonials"> What Our Clients Are Saying </a>
+										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
 										</li>
 						</ul>
 					</li>
-					<li class=""><a href="in-the-media"> In The Media </a> 
+					<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
 								</li>
-								<li class=""><a href="blog">Blog </a> 
+								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
-								<li class=""><a href="contact">Contact Us </a> 
+								<li class=""><a href="<?= $url?>contact">Contact Us </a> 
 								</li>
 				</ul>
 			</div>
@@ -290,4 +294,5 @@
 				</li>
 			</ul>
 		</div>
+		
 	</section>

@@ -1,4 +1,4 @@
-    <footer class="main-footer" style="background-image: url(<?=$url;?>images/background/footer-bg-a.jpg); background-position: top center; background-attachment: fixed; background-size: cover;">
+<footer class="main-footer animated wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms" style="background-image: url(images/background/footer-bg-a.jpg); background-position: top center; background-attachment: fixed; background-size: cover;">
         <div class="container">
             <div class="widget-section">
                 <div class="row">
@@ -7,11 +7,11 @@
                             <h4 class="widget-title"> Properties </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="<?=$url;?>"> Home </a></li> 
-                                        <li><a href="listings/php"> Our Listngs </a></li> 
-                                        <li><a href="javascript:void(0)"> Recent Sales  </a></li>  
-                                        <li><a href="javascript:void(0)"> New Development  </a></li>  
-                                        <li><a href="javascript:void(0)"> Interactive Map  </a></li>  
+                                        <li><a href="<?= $url ?>"> Home </a></li> 
+                                        <li><a href="<?= $url ?>listings"> Our Listngs </a></li> 
+                                        <li><a href="<?= $url ?>recent-sales"> Recent Sales  </a></li>  
+                                        <li><a href="<?= $url ?>new-developments"> New Development  </a></li>  
+                                        <li><a href="<?= $url ?>interactive-map"> Interactive Map  </a></li>  
                                 </ul>
                             </div>
                         </div>
@@ -21,8 +21,8 @@
                             <h4 class="widget-title"> Buyers </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="javascript:void(0)"> Buy With Us </a></li> 
-                                        <li><a href="listings.php"> Our Listngs </a></li>   
+                                        <li><a href="<?= $url ?>buy-with-us"> Buy With Us </a></li> 
+                                        <li><a href="<?= $url ?>listings"> Our Listngs </a></li>   
                                 </ul>
                             </div>
                         </div>
@@ -32,15 +32,10 @@
                             <h4 class="widget-title"> Sellers </h4>
                             <div class="widget-content">
                                 <ul class="list"> 
-                                        <li><a href="javascript:void(0)"> List With Us</a></li> 
-                                        <li><a href="javascript:void(0)"> Concierge </a></li> 
-                                        <li><a href="javascript:void(0)"> Marketing </a></li> 
-                                        <li><a href="javascript:void(0)"> Our Numbers </a></li> 
-                                        <li><a href="javascript:void(0)"> Local Exposure </a></li> 
-                                        <li><a href="javascript:void(0)"> Global Exposure </a></li> 
-                                        <li><a href="javascript:void(0)"> An Online Experience </a></li> 
-                                        <li><a href="javascript:void(0)"> Press </a></li> 
-                                        <li><a href="javascript:void(0)"> Industry Recognition </a></li>  
+                                        <li><a href="<?= $url ?>list-with-us"> List With Us</a></li> 
+                                        <li><a href="<?= $url ?>concierge"> Concierge </a></li> 
+                                        <li><a href="<?= $url ?>marketing"> Marketing </a></li> 
+                                        <li><a href="<?= $url ?>our-numbers"> Our Numbers </a></li> 
                                 </ul>
                             </div>
                         </div>
@@ -50,11 +45,10 @@
                             <h4 class="widget-title"> About Us  </h4>
                             <div class="widget-content">
                                 <ul class="list">
-                                        <li><a href="javascript:void(0)"> The Haris Benzz Group </a></li> 
-                                        <li><a href="javascript:void(0)"> Our Team  </a></li>  
-                                        <li><a href="javascript:void(0)"> Our Offices  </a></li> 
-                                        <li><a href="javascript:void(0)"> In The Media  </a></li> 
-                                        <li><a href="javascript:void(0)">Blogs </a></li> 
+                                        <li><a href="<?= $url ?>harisbenzz-group"> The Haris Benzz Group </a></li> 
+                                        <li><a href="<?= $url ?>our-team"> Our Team  </a></li>  
+                                        <li><a href="<?= $url ?>our-offices"> Our Offices  </a></li> 
+                                        <li><a href="<?= $url ?>blog">Blogs </a></li> 
                                 </ul>
                             </div>
                         </div>
@@ -77,17 +71,10 @@
 
 	<div class = "social-media">
 		<ul class = "social-icons">
-			<li class = "facebook" style = "margin-bottom: 25px;"><a href "#" target  = "_blank"><i class = "fab fa-facebook"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-twitter"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-youtube"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-linkedin"></i></a></li> 
-			<li class = "facebook"><a href "#" target  = "_blank"> <i class = "fab fa-instagram"></i></a></li> 
+			<li class = "facebook" style = "margin-bottom: 25px;"><a href= "https://www.facebook.com/harisbenzz" target  = "_blank"><i class = "fab fa-facebook"></i></a></li> 
+			<li class = "Twitter"><a href ="https://twitter.com/haris_benzz" target  = "_blank"> <i class = "fab fa-twitter"></i></a></li> 
+			<li class = "LinkedIn"><a href ="https://www.linkedin.com/in/ACoAADhmPg8BJT-zetFelDh8LSeAJ248Ep8Jdsw?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADhmPg8BJT-zetFelDh8LSeAJ248Ep8Jdsw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BHmfs8mwXQQawpOEzpDw89A%3D%3D" target  = "_blank"> <i class = "fab fa-linkedin"></i></a></li> 
+			<li class = "Instagram"><a href="https://www.instagram.com/harisbenzz/" target  = "_blank"> <i class = "fab fa-instagram"></i></a></li> 
 		</ul>
 	</div>
 
-
-
-<!-- jequery plugins -->
-<script src="<?=$url;?>js/jquery.js"></script>
-<script src="<?=$url;?>js/popper.min.js"></script>
-<script src="<?=$url;?>js/bootstrap.min.js"></script>

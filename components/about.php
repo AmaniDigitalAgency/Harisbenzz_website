@@ -27,7 +27,7 @@
                                 </p>
                             </div>
                             
-                            <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background: url('images/background/video-bg.jpg');background-size: cover;background-repeat: no-repeat;"></div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background: url('<?= $url?>images/background/video-bg.jpg');background-size: cover;background-repeat: no-repeat;"></div>
                                 
                             
                         </div>

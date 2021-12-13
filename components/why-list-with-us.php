@@ -6,9 +6,9 @@
             <div class="row">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
-                        <div class="service-box">
+                        <div class="service-box wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                            
-                            <figcaption class="service-detail">
+                            <figcaption class="service-detail ">
                                 <h5>Extraordinary service, 
                                     consultation & support
                                     throughout the sales process
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="service-box">
+                        <div class="service-box wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             
                             <figcaption class="service-detail">
                                 <h5>
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="service-box">
+                        <div class="service-box wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             
                             <figcaption class="service-detail">
                                 <h5>
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="service-box">
+                        <div class="service-box wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                            
                             <figcaption class="service-detail">
                                 <h5>
@@ -52,7 +52,7 @@
                     <div class="col-md-4 col-sm-6">
                         <div class="service-box">
                             
-                            <figcaption class="service-detail">
+                            <figcaption class="service-detail wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <h5>
                                     Staging & Touch-Ups
                                 </h5>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <div class="service-box">
+                        <div class="service-box wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             
                             <figcaption class="service-detail">
                                 <h5>
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                        <div class="service-box">
+                        <div class="service-box wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             
                             <figcaption class="service-detail">
                                 <h5>

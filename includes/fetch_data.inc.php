@@ -15,24 +15,24 @@ function getalllistings($table){
 		}
 		
       	$i = 1;
-		foreach ($result as $alllistings => $all) {
-			$location = substr($all['listing_location'], 0, 13);
-			$slug = slugify($all['listing_title']);
+		foreach ($result as $listing) {
+			$location = substr($listing['listing_location'], 0, 13);
+			$slug = slugify($listing['listing_title']);
 			
 			echo'<div class="col-lg-4 col-md-6 col-sm-12 service-block wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1100ms">
                         <div class="service-block-one">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="dashboard/listing-uploads/'.$all['listing_picture'].'" alt="">
+                                    <img src="dashboard/listing-uploads/'.$listing['listing_picture'].'" alt="">
                                 </figure>
                                 <div class="caption-box">
                                     <div class="count-text"> -  '.$location.'..  </div>
-                                    <h4><a href = "property/'.$all['listing_id'].'/'.$slug.'"> '.$all['listing_title'].' </a></h4> 
+                                    <h4><a href = "property/'.$listing['listing_id'].'/'.$slug.'"> '.$listing['listing_title'].' </a></h4> 
                                 </div>
 								
 								<div class="caption-box2">
-                                    <h4><a href = "property/'.$all['listing_id'].'/'.$slug.'"> '.$all['listing_title'].' </a></h4> 
-									<button class = "btn bg-black h-100"><a href = "property/'.$all['listing_id'].'/'.$slug.'"> View Details + </a></button> 
+                                    <h4><a href = "property/'.$listing['listing_id'].'/'.$slug.'"> '.$listing['listing_title'].' </a></h4> 
+									<button class = "btn bg-black h-100"><a href = "property/'.$listing['listing_id'].'/'.$slug.'"> View Details + </a></button> 
                                 </div>
 								
                             </div>
@@ -125,6 +125,46 @@ function getcategory($table,$cat){
                             </div>
                         </div>
                     </div>' ;
+		$i++;
+		}
+	}
+
+	mysqli_close($conn); 
+}
+
+function getallposts($table){ 
+	require("includes/dbh.inc.php");
+	$sql="SELECT * FROM $table ORDER BY post_id DESC LIMIT 9";
+	if ($result=mysqli_query($conn, $sql))
+	{
+      	//count number of rows in query result
+		$rowcount=mysqli_num_rows($result);
+      	//if no rows returned show no posts alert
+		if ($rowcount==0) {
+      		# code...
+			echo ' <h3 class="breadcrumb-h6">No posts available</h3> ';
+		}
+		
+      	$i = 1;
+		foreach ($result as $allposts => $all) {
+			$small_title = substr($all['post_title'], 0, 63);
+			$slug = slugify($all['post_title']);
+			
+			$date = date_create($all['post_date']);
+			$new_date = date_format($date,"dS F Y");
+			
+			echo'<div class="col-lg-4 col-md-6 col-sm-12 news-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="news-block-one">
+                        <figure class="image-box"><a href="posts/'.$all['post_id'].'/'.$slug.'"><img src="dashboard/post-uploads/'.$all['post_picture'].'" alt=""></a></figure>
+                        <div class="lower-content">
+                            <ul class="post-info">
+                                <li><i class="far fa-calendar-alt"></i> '.$new_date.' </li>
+                                <li><i class="fa fa-tag"></i> '.$all['post_category'].' </li>
+                            </ul>
+                            <h4><a href="posts/'.$all['post_id'].'/'.$slug.'"> '.$small_title.' </a></h4>
+                        </div>
+                    </div>
+                </div>' ;
 		$i++;
 		}
 	}

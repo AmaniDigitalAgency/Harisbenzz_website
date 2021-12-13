@@ -9,12 +9,12 @@
 							</div>
 						</div>
                         
-						<div class="content-box"> 
+						<div class="content-box mt-5"> 
 							<div class="text"> Our work in the real estate field speaks for itself. With a lengthy experience coupled with our desire, ability and affinity for the provision of high end property management and maintenace services, we are the number one choice for those looking for a stress free real estate experience in Kampala and beyond. Our properties stand out for their strategic locations, exquisite build and incredible customer care. </div>
 
 						<div class="text"> 
 							Our work in the real estate field speaks for itself. With a lengthy experience coupled with our desire, ability and affinity for the provision of high end property management and maintenace services, we are the number one choice for those looking for a stress free real estate experience in Kampala and beyond. Our properties stand out for their strategic locations, exquisite build and incredible customer care.  </div>
-							<a href="about.php" class = "btn line-button"> Read Our story </a>
+							<a href="<?= $url?>about/harisbenzz-group" class = "btn line-button"> Read Our story </a>
 						</div>
                     </div>
                 </div> 

@@ -28,17 +28,17 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="row col-balance">
-                            <div class="col-lg-6 col-md-12 col-sm-12 pb-4 animated fadeInLeft">
-                                <img src="images/haris/conceirge/1.png" alt="">
+                            <div class="col-lg-6 col-md-12 col-sm-12 pb-4 wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <img src="<?= $url?>images/haris/conceirge/1.png" alt="">
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12 pb-4">
-                                <img src="images/haris/BUZIGA/2.JPG" alt="">
+                            <div class="col-lg-6 col-md-12 col-sm-12 pb-4 animated wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <img src="<?= $url?>images/haris/BUZIGA/2.JPG" alt="">
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <img src="images/haris/1.jpg" alt="">
+                            <div class="col-lg-6 col-md-12 col-sm-12 animated wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <img src="<?= $url?>images/haris/1.jpg" alt="">
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <img src="images/haris/fbc.png" alt="">
+                            <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <img src="<?= $url?>images/haris/fbc.png" alt="">
                             </div>
                         </div>
 

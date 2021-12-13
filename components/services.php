@@ -1,6 +1,6 @@
     <section class="work-section work-tab">
         <div class="container">
-            <div class="sec-title mb-1"> 
+            <div class="sec-title mb-1 wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInLeft;"> 
                 <h1 class = "my-1" style = "font-size: 82px;"> Our<br><span> Services. </span></h1> 
             </div> 
             <div class="content-box">
@@ -20,7 +20,7 @@
                                     <div class="work-slider owl-theme owl-carousel nav-style-one">
                                         <div class="single-item">
                                             <div class="row">
-                                                <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 content-column wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInDown;">
                                                     <div class="tab-content"> 
                                                         <div class="lower-content">
                                                             <h2><a href="javascript:void(0)"> Interactive Map </a></h2>
@@ -29,7 +29,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 image-column wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1000ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name:fadeInUp;">
                                                     <figure class="image-box line-overlay">
                                                         <span class="line"></span>
                                                         <span class="line line-bottom"></span>
@@ -48,9 +48,9 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                                     <div class="tab-content"> 
                                                         <div class="lower-content">
-                                                            <h2><a href="javascript:void(0)"> List With Us </a></h2>
+                                                            <h2><a href="<?= $url?>sellers/list-with-us"> List With Us </a></h2>
                                                             <div class="text"> Anyone looking to sell their proplerty can now easily and flexibly list their properties with us to bring wide-reaching attention to the property they are selling </div>
-															<a href="#" class = "btn line-button"> Learn More </a>
+															<a href="<?= $url?>sellers/list-with-us" class = "btn line-button"> Learn More </a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -73,9 +73,9 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                                     <div class="tab-content"> 
                                                         <div class="lower-content">
-                                                            <h2><a href="javascript:void(0)"> Property Management </a></h2>
+                                                            <h2><a href="<?= $url?>sellers/concierge"> Property Concierge </a></h2>
                                                            <div class="text"> All property owners can now take take advantage of our world class interior design services to add touch of class to your properties. </div>
-															<a href="#" class = "btn line-button"> Learn More </a>
+															<a href="<?= $url?>sellers/concierge" class = "btn line-button"> Learn More </a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -98,9 +98,9 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-12 content-column">
                                                     <div class="tab-content"> 
                                                         <div class="lower-content">
-                                                            <h2><a href="javascript:void(0)"> Property Linkages </a></h2>
+                                                            <h2><a href="<?= $url?>sellers/marketing"> Property Marketing </a></h2>
                                                             <div class="text"> Are you a real estate agent? HarisBenzz now gives you an opportunity to cover some of the most prime properties in Uganda. </div>
-															<a href="#" class = "btn line-button"> Learn More </a>
+															<a href="<?= $url?>sellers/marketing" class = "btn line-button"> Learn More </a>
                                                         </div>
                                                     </div>
                                                 </div>

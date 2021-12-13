@@ -21,7 +21,7 @@
                             <div class="image-box">
                                 <span class="line"></span>
                                 <span class="line line-bottom"></span>
-                                <figure class="image"><img src="images/haris/our-team/1.png" alt=""></figure>
+                                <figure class="image"><img src="<?= $url?>images/haris/our-team/1.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="single-team.html">BULEGA
@@ -34,7 +34,7 @@
                             <div class="image-box">
                                 <span class="line"></span>
                                 <span class="line line-bottom"></span>
-                                <figure class="image"><img src="images/haris/our-team/2.png" alt=""></figure>
+                                <figure class="image"><img src="<?= $url?>images/haris/our-team/2.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="single-team.html">AMANDA Diana</a></h3> 
@@ -46,7 +46,7 @@
                             <div class="image-box">
                                 <span class="line"></span>
                                 <span class="line line-bottom"></span>
-                                <figure class="image"><img src="images/haris/our-team/2.png" alt=""></figure>
+                                <figure class="image"><img src="<?= $url?>images/haris/our-team/2.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="single-team.html">JEAN F. OTHIENO</a></h3> 
@@ -58,7 +58,7 @@
                             <div class="image-box">
                                 <span class="line"></span>
                                 <span class="line line-bottom"></span>
-                                <figure class="image"><img src="images/haris/our-team/2.png" alt=""></figure>
+                                <figure class="image"><img src="<?= $url?>images/haris/our-team/2.png" alt=""></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="single-team.html">AISHA N. AHMAD</a></h3> 
