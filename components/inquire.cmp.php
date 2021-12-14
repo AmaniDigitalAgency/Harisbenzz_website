@@ -8,7 +8,7 @@
             </div>
                 <div class="col-lg-8 offset-lg-2 col-sm-12 form-column">
                     <div class="contact-form-area">
-                        <form method="post" action="#" id="contact-form"> 
+                        <form method="post" action="" id="inquiry-form"> 
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
                                     <input type="text" name="username" placeholder="your name" required>
@@ -20,7 +20,7 @@
                                     <textarea name="message" placeholder="Message here..."></textarea>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                    <button type="submit" name="submit-form">Inquire Now</button>
+                                    <button type="submit" name="inquiry-form">Inquire Now</button>
                                 </div>
                             </div>
                         </form>

@@ -97,7 +97,7 @@
 <script src="<?= $url?>js/appear.js"></script>
 <script src="<?= $url?>js/parallax.min.js"></script>
 <script src="<?= $url?>js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="<?= $url?>js/owl.carousel.min.js"></script>
+<!-- <script src="<?= $url?>js/owl.carousel.min.js"></script> -->
 <!--Revolution Slider-->
 <script src="<?= $url?>revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script src="<?= $url?>revolution/js/jquery.themepunch.tools.min.js"></script>

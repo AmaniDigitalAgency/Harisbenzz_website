@@ -52,7 +52,6 @@
 /* use font link */
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Gopher:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 /* use style sheet */
 
@@ -156,7 +155,7 @@ a{
 a:hover{
   text-decoration:none;
   outline:none;
-  color: #f2be00;
+  color: #222222;
 }
 
 input,button,select,textarea{

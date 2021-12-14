@@ -1,6 +1,7 @@
 <?php
 	$page = " Buy with Us";  
 	include "../header.php"; 
+	include "../components/whatsapp-button.php";
 	include "../components/breadcrumb.php"; 
 	include "../components/buy-with-us.php"; 
 ?> 

@@ -23,12 +23,12 @@
 	}
 	
 ?>	
-<?php include ('includes/head-start.php');?> 
+<?php include ('includes/head-start.php');	include "components/whatsapp-button.php";?> 
 
 <?php include ('includes/head-end.php');?>  
 
 
-	<section class="page-title centred animated wow fadeInDown animated" data-wow-delay="100ms" data-wow-duration="1500ms" style="background-image: url('<?= $url?>dashboard/listing-uploads/<?= $l->listing_picture;?>'); min-height: 90vh;">
+	<section class="page-title centred animated wow fadeInDown animated" data-wow-delay="100ms" data-wow-duration="1500ms" style="background-image: url('<?= $url?>dashboard/listing-uploads/<?= $l->listing_picture;?>') !important; min-height: 90vh;">
 		<!----div class="rotate-text">Exterior & Interionr Design</div----->
 		<div class="container">
 			<div class="info-content details">

@@ -23,7 +23,7 @@
                                     Your home is a very personal, important, and valuable asset,
                                     and it can be an emotional and complicated endeavor to sell
                                     it, especially in today’s challenging marketplace.<p><br>
-                                <span class="contact-btn"><a href="contact">Get in touch with us</a></span>
+                                <span class="contact-btn"><a href="<?= $url ?>contact">Get in touch with us</a></span>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">

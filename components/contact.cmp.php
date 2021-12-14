@@ -1,6 +1,4 @@
-    <?php
-        include "includes/contactsubmission.php";
-    ?>
+
 
 <section class="contact-section gray-bg pb-0">
         <div class="container">

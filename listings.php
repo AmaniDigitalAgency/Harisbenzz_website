@@ -1,6 +1,7 @@
 <?php
 	$page = "Listings";  
 	include "header.php"; 
+    include "components/whatsapp-button.php";
 	include "components/breadcrumb.php"; 
 	include "components/search.php";
     include "includes/contactsubmission.php";

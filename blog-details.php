@@ -23,7 +23,7 @@
 ?> 
 
 <?php include ('includes/head-end.php');?>
-<?php include ('components/breadcrumb.php'); ?>
+<?php include ('components/breadcrumb.php'); 	include "components/whatsapp-button.php";?>
 
     <section class="blog-single pb-0">
         <div class="container">

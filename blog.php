@@ -1,6 +1,7 @@
 <?php
 	$page = "Blog";  
-	include "header.php"; 
+	include "header.php";
+    include "components/whatsapp-button.php"; 
 	include "components/breadcrumb.php";
 ?> 
 

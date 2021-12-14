@@ -2,6 +2,7 @@
 include "includes/dbh.inc.php"; 
 include "includes/fetch_data.inc.php"; 
 $url   = "http://localhost/harisbenzz_website/";
+include "includes/contactsubmission.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
