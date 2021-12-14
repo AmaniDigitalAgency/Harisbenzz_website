@@ -1,3 +1,6 @@
+<?php
+        include "includes/contactsubmission.php";
+    ?>
 <section class="contact-section form-inquire pb-0  animated wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms">
         <div class="container">
             <div class="row animated fadeInLeft"> 

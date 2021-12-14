@@ -1,8 +1,8 @@
 <?php 
 include "includes/dbh.inc.php"; 
 include "includes/fetch_data.inc.php"; 
-$url   = "http://localhost/harisbenzz_website/";
-include "includes/contactsubmission.php";
+// $url   = "http://localhost/harisbenzz_website/";
+$url   = "http://harisbenzz.com/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
