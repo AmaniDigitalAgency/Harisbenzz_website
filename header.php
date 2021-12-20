@@ -1,8 +1,8 @@
 <?php 
 include "includes/dbh.inc.php"; 
 include "includes/fetch_data.inc.php"; 
-// $url   = "http://localhost/harisbenzz_website/";
-$url   = "http://harisbenzz.com/";
+$url   = "http://localhost/harisbenzz_website/";
+// $url   = "http://harisbenzz.com/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,8 +45,8 @@ $url   = "http://harisbenzz.com/";
 										</li>
 										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="<?= $url?>new-developments"> New Development  </a>
-										</li>
+										<!-- <li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li> -->
 										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
@@ -95,8 +95,8 @@ $url   = "http://harisbenzz.com/";
 										</li>
 									</ul>
 								</li>
-								<li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
-								</li>
+								<!-- <li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li> -->
 								<li class="after"><a href="<?= $url?>blog">Blog </a> 
 								</li>
 								<li class="after"><a href="<?= $url?>contact">Contact Us </a> 
@@ -140,8 +140,8 @@ $url   = "http://harisbenzz.com/";
 										</li>
 										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="<?= $url?>new-developments"> New Development  </a>
-										</li>
+										<!-- <li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li> -->
 										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
@@ -191,8 +191,8 @@ $url   = "http://harisbenzz.com/";
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
-								</li>
+								<!-- <li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li> -->
 								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
 								<li class=""><a href="<?= $url?>contact">Contact Us </a> 
@@ -228,8 +228,8 @@ $url   = "http://harisbenzz.com/";
 										</li>
 										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="<?= $url?>new-developments"> New Development  </a>
-										</li>
+										<!-- <li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li> -->
 										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 						</ul>
@@ -278,8 +278,8 @@ $url   = "http://harisbenzz.com/";
 										</li>
 						</ul>
 					</li>
-					<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
-								</li>
+					<!-- <li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li> -->
 								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
 								<li class=""><a href="<?= $url?>contact">Contact Us </a> 

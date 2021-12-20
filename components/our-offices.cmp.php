@@ -17,9 +17,8 @@
             
         </div>
         <div class="our-offices-top-photo">
-
+            <canvas width="634" height="363" style="background-image: url(&quot;<?= $url?>images/haris/offices/offices.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>                    <!--[aios_element]<canvas width="637" height="413" style="background-image: url('{{theme_dir}}/images/our-offices-2.jpg');" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0.2s" data-aios-animation-reset="false" data-aios-animation-offset="0.1"></canvas>[/aios_element]-->
 		    <canvas width="634" height="363" style="background-image: url(&quot;<?= $url?>images/main-slider/slider-3.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>
-            <canvas width="634" height="363" style="background-image: url(&quot;<?= $url?>images/main-slider/slide-7.jpg&quot;); animation-delay: 0s;" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" class="animated fadeInUp visible"></canvas>                    <!--[aios_element]<canvas width="637" height="413" style="background-image: url('{{theme_dir}}/images/our-offices-2.jpg');" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0.2s" data-aios-animation-reset="false" data-aios-animation-offset="0.1"></canvas>[/aios_element]-->
     </div>
 
     </div>
@@ -99,7 +98,7 @@
                                 <div class="icon-box"></div>
                                 <h3><i class="flaticon-phone-call-1" style="font-size:18px;"></i> Phone</h3>
                                 <p><a href="tel:+256772487258" style = "color: #585858;">(+256 ) 772 - 487- 258</a><br/>
-                                <a href="tel:+256772487258" style = "color: #585858;"> (+256 ) 772 - 487- 258 </a></p>
+                                <a href="tel:+256772487258" style = "color: #585858;"> (+256 ) 785 - 347 - 322 </a></p>
                             </div>
                             <div class="single-info py-3">
                                 <div class="icon-box"></div>

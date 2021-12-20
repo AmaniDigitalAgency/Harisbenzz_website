@@ -1753,9 +1753,10 @@ img.slider-image {
 
 .about-section .image-box{
   position: relative;
-  display: block;
-  box-shadow: 0 0 30px rgba(34, 34, 34, 0.20);
-  margin-top: 3px;
+  /* height: 100%; */
+  vertical-align: middle;
+  /* background-image: url(../images/haris/offices/offices.jpg); */
+  /* margin-top: 102px; */
 }
 
 .market img{
@@ -7027,6 +7028,11 @@ img.slider-image {
 		.md-display-none {
 			display: none; 
 		}
+  }
+  @media (max-width: 425px) { 
+		.about-section .image-box {
+      height: 284px !important;
+    }
   }
 
 

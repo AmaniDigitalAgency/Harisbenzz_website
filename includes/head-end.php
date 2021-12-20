@@ -25,8 +25,8 @@
 										</li>
 										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="<?= $url?>new-developments"> New Development  </a>
-										</li>
+										<!-- <li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li> -->
 										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
@@ -75,8 +75,8 @@
 										</li>
 									</ul>
 								</li>
-								<li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
-								</li>
+								<!-- <li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li> -->
 								<li class="after"><a href="<?= $url?>blog.php">Blog </a> 
 								</li>
 								<li class="after"><a href="<?= $url?>contact">Contact Us </a> 
@@ -120,8 +120,8 @@
 										</li>
 										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="<?= $url?>new-developments"> New Development  </a>
-										</li>
+										<!-- <li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li> -->
 										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 									</ul>
@@ -171,8 +171,8 @@
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
-								</li>
+								<!-- <li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li> -->
 								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
 								<li class=""><a href="<?= $url?>contact">Contact Us </a> 
@@ -208,8 +208,8 @@
 										</li>
 										<li><a href="<?= $url?>recent-sales"> Recent Sales  </a>
 										</li>
-										<li><a href="<?= $url?>new-developments"> New Development  </a>
-										</li>
+										<!-- <li><a href="<?= $url?>new-developments"> New Development  </a>
+										</li> -->
 										<li><a href="<?= $url?>interactive-map"> Interactive Map  </a>
 										</li>
 						</ul>
@@ -258,8 +258,8 @@
 										</li>
 						</ul>
 					</li>
-					<li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
-								</li>
+					<!-- <li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
+								</li> -->
 								<li class=""><a href="<?= $url?>blog">Blog </a> 
 								</li>
 								<li class=""><a href="<?= $url?>contact">Contact Us </a> 

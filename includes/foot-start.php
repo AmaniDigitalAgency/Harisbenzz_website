@@ -10,7 +10,7 @@
                                         <li><a href="<?= $url ?>"> Home </a></li> 
                                         <li><a href="<?= $url ?>listings"> Our Listngs </a></li> 
                                         <li><a href="<?= $url ?>recent-sales"> Recent Sales  </a></li>  
-                                        <li><a href="<?= $url ?>new-developments"> New Development  </a></li>  
+                                        <!-- <li><a href="<?= $url ?>new-developments"> New Development  </a></li>   -->
                                         <li><a href="<?= $url ?>interactive-map"> Interactive Map  </a></li>  
                                 </ul>
                             </div>

@@ -1,4 +1,4 @@
-    <section class="video-style-two centred wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms" style="background-image: url(images/background/video-bg.jpg);" id = "video">
+    <section style="background: url('./images/background/video-bg.jpg') !important;" class="video-style-two centred wow fadeInUp animated" data-wow-delay="100ms" data-wow-duration="1500ms"  id = "video">
         <div class="parallax-scene parallax-scene-2 anim-icons">
             <span data-depth="0.40" class="parallax-layer icon icon-1"></span>
             <span data-depth="0.50" class="parallax-layer icon icon-2"></span>

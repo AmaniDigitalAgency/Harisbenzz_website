@@ -10,8 +10,6 @@
 						</div>
                         
 						<div class="content-box mt-5"> 
-							<div class="text"> Our work in the real estate field speaks for itself. With a lengthy experience coupled with our desire, ability and affinity for the provision of high end property management and maintenace services, we are the number one choice for those looking for a stress free real estate experience in Kampala and beyond. Our properties stand out for their strategic locations, exquisite build and incredible customer care. </div>
-
 						<div class="text"> 
 							Our work in the real estate field speaks for itself. With a lengthy experience coupled with our desire, ability and affinity for the provision of high end property management and maintenace services, we are the number one choice for those looking for a stress free real estate experience in Kampala and beyond. Our properties stand out for their strategic locations, exquisite build and incredible customer care.  </div>
 							<a href="<?= $url?>about/harisbenzz-group" class = "btn line-button"> Read Our story </a>
@@ -19,7 +17,7 @@
                     </div>
                 </div> 
                 <div class="col-lg-5 col-md-12 col-sm-12 image-column">
-                    <figure class="image-box"><img src="images/resource/about-1.jpg" alt=""></figure> 
+                    <figure class="image-box"><img src="<?= $url ?>images/haris/offices/offices.jpg" height="252" alt=""></figure> 
                 </div>
             </div>
         </div>

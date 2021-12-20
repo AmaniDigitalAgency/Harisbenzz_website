@@ -556,8 +556,10 @@
     line-height: 70px;
   }
   .about-section .image-box img{
-    height: 100% !important;
+    height: auto;
     width: auto !important;
+    margin-top: -60px;
+    background-image: none !important;
   }
  .work-section .p-tabs-content .single-item .tab-content .lower-content h2 a{
    font-size: 27px !important;
