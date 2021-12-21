@@ -2,12 +2,13 @@
 include "includes/dbh.inc.php"; 
 include "includes/fetch_data.inc.php"; 
 $url   = "http://localhost/harisbenzz_website/";
-// $url   = "http://harisbenzz.com/";
+// $url   = "https://harisbenzz.com/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+	<script data-ad-client="ca-pub-2031938804495541" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">

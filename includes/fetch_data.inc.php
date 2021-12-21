@@ -146,22 +146,22 @@ function getallposts($table){
 		}
 		
       	$i = 1;
-		foreach ($result as $allposts => $all) {
-			$small_title = substr($all['post_title'], 0, 63);
-			$slug = slugify($all['post_title']);
+		foreach ($result as $allposts=>$post) {
+			$small_title = substr($post['post_title'], 0, 63);
+			$slug = slugify($post['post_title']);
 			
-			$date = date_create($all['post_date']);
+			$date = date_create($post['post_date']);
 			$new_date = date_format($date,"dS F Y");
 			
 			echo'<div class="col-lg-4 col-md-6 col-sm-12 news-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="news-block-one">
-                        <figure class="image-box"><a href="posts/'.$all['post_id'].'/'.$slug.'"><img src="dashboard/post-uploads/'.$all['post_picture'].'" alt=""></a></figure>
+                        <figure class="image-box"><a href="blog_deatils.php?id=$post=>post_id&name=$slug"><img src="dashboard/post-uploads/'.$post['post_picture'].'" alt=""></a></figure>
                         <div class="lower-content">
                             <ul class="post-info">
                                 <li><i class="far fa-calendar-alt"></i> '.$new_date.' </li>
-                                <li><i class="fa fa-tag"></i> '.$all['post_category'].' </li>
+                                <li><i class="fa fa-tag"></i> '.$post['post_category'].' </li>
                             </ul>
-                            <h4><a href="posts/'.$all['post_id'].'/'.$slug.'"> '.$small_title.' </a></h4>
+                            <h4><a href="blogs/'.$post['post_id'].'/'.$slug.'"> '.$small_title.' </a></h4>
                         </div>
                     </div>
                 </div>' ;

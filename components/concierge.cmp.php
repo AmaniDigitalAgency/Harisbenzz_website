@@ -8,15 +8,17 @@
 						<div class="content-box mt-5 wow fadeInDown animated" data-wow-delay="00ms" data-wow-duration="1500ms"> 
                             <div class="text"> 
                                 <b>Not happy with the way your building/home looks?.</b><br>
-                                We swiftly and commendably upsurge your home’s 
-                                market value with our custom-made improvement 
-                                services.
+                                We are the house-renovating team that will transform your
+                                home into a luxurious gets results experience. We offer
+                                customised solutions for all types and budgets, so don't
+                                hesitate to reach out!
                             </div>
                             <p>
-                                With Harisbenzz’s Concierge package, we will recommend and
-                                even front the cost of select services to refurbish your
-                                property’s appearance and heighten its prestige. This 
-                                means less time on the market, with an even advanced return on sale.</p>
+                                With Harisbenzz’s Concierge package, you won't have to spend 
+                                your time on the market. Once we have fronted the cost of select 
+                                services to remodel and remake your home into a completive threat 
+                                on the market, your return on sale will be worthwhile.
+                        </p>
                         
                         </div>
                     </div>
@@ -25,15 +27,13 @@
                             <div class="text">  
                                 <p>
                                     <h5 class="mb-3" style="color: #d5af36;font-weight: bold;font-family: cursive;">We have no hidden fees or interest charged.</h5>
-                                    Our Concierge aims to prepare your home/property 
-                                    for the finest unveiling on the market. After evaluating 
-                                    your property’s needs via a walkthrough, we work together 
-                                    in crafting prospects to increase its value and profitability.
-                                    From deep-cleaning to ornamental improvements, Harisbenzz will 
-                                    cover the upfront costs of hand-picked services and not collect 
-                                    payment until the sale/ hire of your property. By financing your 
-                                    property’s potential, we seek to leverage a swifter and worthwhile 
-                                    sale.
+                                    We empower you to focus on your business and not worry about the little things. 
+                                    By preparing your property for sale, we can ensure that it has all of its potential 
+                                    shining through without holding back any punches!. <br><br><strong>A team effort: </strong>
+                                    our dedicated concierges will walk through every inch with their deep cleaning services 
+                                    or ornamental improvements so when prospective buyers come they're taken aback by what's 
+                                    ready-to go... And because Harisbenzz finances these hand picked upgrades upfront at no 
+                                    cost until after closing day - there are less worries than ever before about cash flow.
 
                                 </p>
                                 <br>
