@@ -10,8 +10,8 @@
         <div class="container">
             <div class="inner-content">
                 <span class="top-text"> Video Tour </span> 
-                <h1> MAKING DREAMS A REALITY </h1>
-                <a href="https://youtu.be/C1tGsHWXFJQ" class="btn-gallery video-link" data-caption=""><i class="flaticon-arrow"></i></a>
+                <h1> TAKE A TOUR AROUND OUR OFFICES </h1>
+                <a href="javascript:void(0)" class="video-link" data-caption=""><i class="flaticon-arrow"></i></a>
             </div>
         </div>
     </section>

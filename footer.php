@@ -91,6 +91,7 @@
 <script src="<?= $url?>js/bootstrap.min.js"></script>
 
 <script src="<?= $url?>js/owl.js"></script>
+<script src="<?= $url?>js/magnific.js"></script>
 <script src="<?= $url?>js/wow.js"></script>
 <script src="<?= $url?>js/validation.js"></script>
 <script src="<?= $url?>js/jquery.fancybox.js"></script>
@@ -110,7 +111,9 @@
 <script src="<?= $url?>revolution/js/revolution.extension.parallax.min.js"></script>
 <script src="<?= $url?>revolution/js/revolution.extension.slideanims.min.js"></script>
 <script src="<?= $url?>revolution/js/revolution.extension.video.min.js"></script>
+<script src="<?= $url?>js/jquery.magnific-popup.min.js"></script>
 <script src="<?= $url?>js/main-slider-script.js"></script>
+
 
 <!-- main-js -->
 <script src="<?= $url?>js/script.js"></script>

@@ -15,6 +15,7 @@ $url   = "http://localhost/harisbenzz_website/";
 	<title>Haris Benzz</title>
 	<link rel="stylesheet" href="<?= $url?>fonts/stylesheet.css" />
 	<link rel="stylesheet" href="<?= $url?>css/font-awesome.min.css" /> 
+	<link rel="stylesheet" href="<?= $url?>css/magnific-popup.min.css" /> 
 	<link href="<?= $url?>css/style.css" rel="stylesheet">
 	<link href="<?= $url?>css/custom.css" rel="stylesheet">
 	<link href="<?= $url?>css/responsive.css" rel="stylesheet">
