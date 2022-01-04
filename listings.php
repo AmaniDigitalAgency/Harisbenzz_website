@@ -23,7 +23,7 @@
         </div>
     </section>
 	
-    <section class="contact-section form-inquire pb-0">
+    <!-- <section class="contact-section form-inquire pb-0">
         <div class="container">
             <div class="row"> 
             <div class="col-lg-4 offset-lg-2 col-md-12 content-column">
@@ -53,11 +53,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
  
 	
 
 <?php
-	//include "components/video.php";
+	include "components/inquire.cmp.php";
+?>
+<?php
 	include "footer.php";
 ?>

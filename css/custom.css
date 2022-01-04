@@ -976,20 +976,24 @@ span i.title-line {
 /* Conceirge Slider Css */
 .wrapper{
     position: relative;
-    height: 394px;
+    height: 535px;
     width: 482px;
     overflow: hidden;
     background: #fff;
+    text-align: center;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.25);
     border: 6px solid #fff;
-    margin-top: 5%;
+    margin-top: 0%;
 }
-
+img.img-fluid.with-img {
+    height: 241px !important;
+}
 @media(max-width:320px){
 	.wrapper {
 		position: relative;
 		height: 229px;
-		width: 292px;}
+		width: auto;
+		}
 		.slider .drag-line {
 			height: 217px !important;
 		}

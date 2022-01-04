@@ -24,40 +24,19 @@
                 </div> 
                 
                 <div class="col-lg-5 col-md-12 col-sm-12 image-column" >
-                    <div class="wrapper animated slideInUp">
-                        <div class="images">
-                            <div class="img1"></div>
-                            <div class="img2"></div>
-                            
-                        </div>
-                        <div class="slider">
-                            <div class="drag-line">
-                                <span></span>
+                    <div class="wrapper animated slideInUp col-sm-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                                <img src="../images/haris/offices/offices.jpg" alt="" height="241px" class="img-fluid with-img">
                             </div>
-                            <input type="range" min="0" maxlength="100" value="50" />
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <img src="../images/haris/offices/offices.jpg" alt="" height="241px" class="img-fluid with-img">
+                            </div>
                         </div>
+                        <img src="">
                     </div>
                 </div>
             </div>
         </div>
 </section>
-        <script>
-            const slider = document.querySelector(".slider input");
-            const img = document.querySelector(".images .img2");
-            const dragLine = document.querySelector(".slider .drag-line");
-            slider.oninput = ()=>{
-                let sliderVal = slider.value;
-                dragLine.style.left = sliderVal + "%";
-                img.style.width = sliderVal + "%";
-            }
-            const slider2 = document.querySelector(".slid input");
-            const img2 = document.querySelector(".imgs .img5");
-            const drag = document.querySelector(".slid .dragline");
-            slider2.oninput = ()=>{
-                let sliderVal = slider2.value;
-                drag.style.left = sliderVal + "%";
-                img2.style.width = sliderVal + "%";
-            }
-            
-        </script>
     

@@ -403,8 +403,8 @@ img{
   font-weight: 300;
   color: #D5AF36;
   line-height: 0;
-  font-size: 38px !important;
-  padding-left: 88px;
+  font-size: 30px !important;
+  padding-left: 25px;
   font-family: 'Gopher', sans-serif;
   /* padding-top: 5px !important; */
 }
@@ -6918,12 +6918,13 @@ img.slider-image {
   background: #D5AF36;
   font-weight: 400;
   text-align: center;
+  margin-top: 15px;
   padding: 13px 35px;
   transition: all 500ms ease;
   cursor: pointer;
-  text-transform: uppercase; 
-  border-radius: 0; 
-  margin-left: 60px; 
+  text-transform: uppercase;
+  border-radius: 0;
+  margin-left: 60px;
 }
 
 .contact-form-area .form-group button:before{

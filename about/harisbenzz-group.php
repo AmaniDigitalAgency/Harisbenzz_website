@@ -7,6 +7,7 @@
 	include "../components/about.php"; 
 	include "../components/counter.php";
 	include "../components/testimonial.php";
+	include "../components/inquire.cmp.php";
 ?> 
  
 	

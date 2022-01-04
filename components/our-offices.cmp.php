@@ -90,7 +90,7 @@
                             <div class="single-info py-3  pr-3">
                                 <div class="icon-box"></div>
                                 <h3><i class="flaticon-email" style="font-size:18px;"></i> Email</h3>
-                                <p><a href="admin@harisbenzz.com " style = "color: #585858;"> admin@harisbenzz.com </a><br /><a href="mailto:info@harisbenzz.com" style = "color: #585858;"> info@harisbenzz.com </a></p>
+                                <p><a href="mailto:admin@harisbenzz.com " style = "color: #585858;"> admin@harisbenzz.com </a><br /><a href="mailto:info@harisbenzz.com" style = "color: #585858;"> info@harisbenzz.com </a></p>
                             </div>
                         </div>
                         <div class="info-box clearfix float-right">
@@ -98,16 +98,16 @@
                                 <div class="icon-box"></div>
                                 <h3><i class="flaticon-phone-call-1" style="font-size:18px;"></i> Phone</h3>
                                 <p><a href="tel:+256772487258" style = "color: #585858;">(+256 ) 772 - 487- 258</a><br/>
-                                <a href="tel:+256772487258" style = "color: #585858;"> (+256 ) 785 - 347 - 322 </a></p>
+                                <a href="tel:+256785347322" style = "color: #585858;"> (+256 ) 785 - 347 - 322 </a></p>
                             </div>
                             <div class="single-info py-3">
                                 <div class="icon-box"></div>
                                 <h3>Socials</h3>
                                 <p>
                                     <i class="fab fa-facebook"></i> 
-                                    <a href="tel:+880(+1) 1245 - 15487- 258" style = "color: #585858;">
+                                    <a href="https://www.facebook.com/harisbenzz" style = "color: #585858;">
                                     harisbenzz</a><br />
-                                    <a href="tel:+880(+1) 1245 - 15487- 258" style = "color: #585858;">
+                                    <a href="https://twitter.com/haris_benzz" style = "color: #585858;">
                                     <i class="fab fa-twitter"></i> haris_benzz</a></p>
                             </div>
                         </div>
