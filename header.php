@@ -92,8 +92,8 @@ $url   = "http://localhost/harisbenzz_website/";
 										</li>
 										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
-										</li>
+										<!-- <li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
+										</li> -->
 									</ul>
 								</li>
 								<!-- <li class="after"><a href="<?= $url?>in-the-media"> In The Media </a> 
@@ -188,8 +188,8 @@ $url   = "http://localhost/harisbenzz_website/";
 										</li>
 										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
-										</li>
+										<!-- <li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
+										</li> -->
 									</ul>
 								</li>
 								<!-- <li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 
@@ -275,8 +275,8 @@ $url   = "http://localhost/harisbenzz_website/";
 										</li>
 										<li><a href="<?= $url?>about/our-offices"> Our Offices </a>
 										</li>
-										<li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
-										</li>
+										<!-- <li><a href="<?= $url?>about/testimonials"> What Our Clients Are Saying </a>
+										</li> -->
 						</ul>
 					</li>
 					<!-- <li class=""><a href="<?= $url?>in-the-media"> In The Media </a> 

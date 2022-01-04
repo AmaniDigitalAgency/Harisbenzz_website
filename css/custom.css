@@ -848,6 +848,7 @@ span i.title-line {
 }
 .scroll-to-gallery:hover {
     background: #1d1d1d;
+    color: white;
 }
 .our-offices-top-inner {
     background: #fff;

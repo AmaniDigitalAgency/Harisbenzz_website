@@ -392,6 +392,7 @@ img{
   display: block;
   font-size: 58px;
   color: #1B1B1B;
+  text-transform: uppercase !important;
   line-height: 4;
   text-transform: capitalize;
   line-height: 34px;
@@ -6757,9 +6758,9 @@ img.slider-image {
 	border-radius: 0;
 	border: none  !important;
 	border-bottom: 1px solid #DDDDDD !important;
-	color: #DDDDDD; 
-	font-size: 14px; 
-	text-transform: uppercase; 
+	color: #DDDDDD;
+	font-size: 11px;
+	text-transform: uppercase;
 }
 .contact-form-area.bg-image .form-control::placeholder {
 	color: #DDDDDD; 
@@ -6775,16 +6776,16 @@ img.slider-image {
   padding-right: 35px;
   padding-left: 30px;
   margin-bottom: 12px;
-  margin-top: 20px; 
+  margin-top: 18px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 11px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   color: #FFFFFF;
-  text-transform: uppercase; 
-  font-weight: 500; 
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 /* Hide the browser's default checkbox */
@@ -6799,13 +6800,13 @@ img.slider-image {
 /* Create a custom checkbox */
 .contact-form-area.bg-image .checkmark {
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
   height: 20px;
   width: 20px;
-  background: transparent; 
+  background: transparent;
   border-radius: 3px;
-  border: 1px solid #EEEEEE;  
+  border: 1px solid #EEEEEE;
 }
 
 /* On mouse-over, add a grey background color */
@@ -6815,7 +6816,7 @@ img.slider-image {
 
 /* When the checkbox is checked, add a blue background */
 .contact-form-area.bg-image .custom-checkbox input:checked ~ .checkmark {
-  background-color: #D5AF36;
+  background-color: transparent;
   border: 1px solid #D5AF36;
 }
 
@@ -6833,12 +6834,12 @@ img.slider-image {
 
 /* Style the checkmark/indicator */
 .contact-form-area.bg-image .custom-checkbox .checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 7px;
+  top: 4px;
   width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
+  height: 9px;
+  border: solid #d5af36;
+  border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -6874,8 +6875,8 @@ img.slider-image {
 .contact-section.form-inquire .contact-form-area .form-group textarea{
   border: none;
   border-bottom: 1px solid #DDDDDD;
-  background: transparent; 
-  color: #DDDDDD; 
+  background: transparent;
+  color: #ffffff;
 }
 
 
@@ -6885,10 +6886,11 @@ img.slider-image {
   position: relative;
   display: block;
   width: 100%;
-  height: 50px;
+  height: 34px;
+  text-transform: uppercase;
   border: 1px solid #AAAAAA;
   background: #fcfcfc;
-  font-size: 14px;
+  font-size: 11px;
   font-family: 'Gopher', sans-serif;
   color: #9a9a9a;
   padding: 10px 20px;
@@ -7039,7 +7041,7 @@ img.slider-image {
 
   /* Custom CSS */
 select.form-control.valid {
-  height: 50px !important;
+  height: 29px !important;
 }
 a.whatsapp-icon {
   font-size: 38px;
@@ -7068,7 +7070,7 @@ a.whatsapp-icon i {
 }
 
 .my-float{
-	margin-top: 8px;
+	margin-top: 6px;
 }
 .story-section .card{
   padding: 25px;
@@ -7115,4 +7117,7 @@ a.whatsapp-icon i {
 }
 .service-box:hover  .service-icon i{
   transform:rotate(-360deg);
+}
+.contact-form-area.bg-image .form-control option {
+    color: black;
 }

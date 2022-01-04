@@ -10,7 +10,7 @@
                 </span>
             </h1>
             <div class="our-offices-content our-offices-content-a animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0.2s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" style="animation-delay: 0.2s;">
-                <p>Uniquely positioned at the corner of Sunset Blvd. and Sunset Plaza Dr., The Oppenheim Group offices are a classically designed open-space environment built to reflect the Oppenheim family 125-year history in Los Angeles real estate and to engender close interaction and synergy between the agents.</p><br>
+                <p>Harisbenzz Head Offices are uniquely positioned at Kisoboka House at the corner of Tankhill Road, Muyenga. Harisbenzz’s offices are a classically designed open-space environment built to provide the perfect experience of real estate enterprise.</p><br>
                 <a href="contact" class="scroll-to-gallery">Contact us now</a>
             </div>
                                 
@@ -25,11 +25,22 @@
 
 </div></section>
 <section class=" gray-bg pb-0">
-    <div class="our-offices-party-gallery-title animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" style="animation-delay: 0s;">Gallery</div>
+    <div class="p-5 our-offices-party-gallery-title animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" style="animation-delay: 0s;">Office Photos</div>
     <div class="container">
         <div class="row">
             
-            <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
+            <div class="col-lg-6 col-md-12 col-sm-12 pb-3" >
+                <div class="overlay-container">
+                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
+                    <div class="img-overlay">
+                        <div class="content">
+                            <h3>Receiption</h3>
+                            <p>Where every one grabs lunch from.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 pb-3" >
                 <div class="overlay-container">
                     <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
                     <div class="img-overlay">
@@ -40,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
+            <!-- <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
                 <div class="overlay-container">
                     <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
                     <div class="img-overlay">
@@ -50,18 +61,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
-                <div class="overlay-container">
-                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
-                    <div class="img-overlay">
-                        <div class="content">
-                            <h3>Office Cafe</h3>
-                            <p>Where every one grabs lunch from.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
     </div>
         <div class="container py-5">

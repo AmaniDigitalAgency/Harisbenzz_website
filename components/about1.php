@@ -17,7 +17,7 @@
                     </div>
                 </div> 
                 <div class="col-lg-5 col-md-12 col-sm-12 image-column">
-                    <figure class="image-box"><img src="<?= $url ?>images/haris/offices/offices.jpg" height="252" alt=""></figure> 
+                    <figure class="image-box"><img src="<?= $url ?>images/haris/offices/offices.jpg" alt=""></figure> 
                 </div>
             </div>
         </div>

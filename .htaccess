@@ -47,7 +47,7 @@ RewriteRule ^(.*)$ $1.php [NC,L]
 
 
 RewriteRule ^property/([a-zA-Z0-9]+)/([a-zA-Z_-]*)/?$ details.php?id=$1&name=$2 [L,QSA,NC]
-RewriteRule ^blogs/([a-zA-Z0-9]+)/([a-zA-Z_-]*)/?$ blog_details.php?id=$1&name=$2 [L,QSA,NC]
+RewriteRule ^blog/([a-zA-Z0-9]+)/([a-zA-Z_-]*)/?$ blog_details.php?id=$1&name=$2 [L,QSA,NC]
 RewriteRule ^property-category/([a-zA-Z_-]*)/?$ category-details.php?name=$1 [L,QSA,NC]
 
 </IfModule>

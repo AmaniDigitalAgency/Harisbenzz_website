@@ -6,4 +6,3 @@ include "includes/dbh.inc.php";
         $stmt->execute();
         $listings = $stmt->fetchAll(PDO::FETCH_ASSOC);
     ?>
-

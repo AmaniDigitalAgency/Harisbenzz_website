@@ -1,7 +1,7 @@
 <?php
     
 	require('includes/dbh.inc.php');
-	if(isset($_GET['id']) && isset($_GET['name'])){
+	if(isset($_GET['name'])){
 		$postId = (int)$_GET["id"];
 		$getPosts = $conn->query("SELECT * FROM posts WHERE post_id = '$postId'");
 		if($getPosts->num_rows == 1){
@@ -27,7 +27,15 @@
     include ('components/breadcrumb.php'); 
 	include "components/whatsapp-button.php";
 ?>
-
+<style>
+    .content-box h2 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px !important;
+    top: 50px;
+    text-transform: uppercase;
+}
+</style>
     <section class="blog-single pb-0">
         <div class="container">
             <div class="row">
@@ -36,7 +44,7 @@
                         <div class="inner-box">
                             <div class="content-style-one">
                                 <div class="news-block-one p-3">
-                                    <figure class="image-box"><img src="<?=$url;?>dashboard/post-uploads/<?=$l->post_picture;?>" style = "height: 300px; object-fit:cover;" alt=""></figure>
+                                    <figure class="image-box"><img src="<?=$url;?>dashboard/post-uploads/<?=$l->post_picture;?>" style = "height: 600px; object-fit:cover;" alt=""></figure>
                                     <div class="lower-content">
                                         <ul class="post-info">
                                             <li><i class="far fa-calendar-alt"></i> <?=$l->post_date;?> </li>
