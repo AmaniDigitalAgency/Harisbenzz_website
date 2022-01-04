@@ -1,17 +1,27 @@
+//LightBox Javascript
 $(document).ready(function() {
-
-	$('a.btn-gallery').on('click', function(event) {
-		event.preventDefault();
-		
-		var gallery = $(this).attr('href');
-    
-		$(gallery).magnificPopup({
-      delegate: 'a',
-			type:'image',
-			gallery: {
-				enabled: true
+	$('.btn-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		closeOnContentClick: false,
+		closeBtnInside: false,
+		mainClass: 'mfp-with-zoom mfp-img-mobile',
+		image: {
+			verticalFit: true,
+			titleSrc: function(item) {
+				return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('data-source')+'" target="_blank">image source</a>';
 			}
-		}).magnificPopup('open');
+		},
+		gallery: {
+			enabled: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300, // don't foget to change the duration also in CSS
+			opener: function(element) {
+				return element.find('img');
+			}
+		}
+		
 	});
-	
 });

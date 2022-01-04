@@ -25,45 +25,12 @@
 
 </div></section>
 <section class=" gray-bg pb-0">
-    <div class="p-5 our-offices-party-gallery-title animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" style="animation-delay: 0s;">Office Photos</div>
+    <div class="p-5 our-offices-party-gallery-title animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.1" data-aios-reveal-mobile="false" style="animation-delay: 0s;">Office Gallery</div>
     <div class="container">
-        <div class="row">
-            
-            <div class="col-lg-6 col-md-12 col-sm-12 pb-3" >
-                <div class="overlay-container">
-                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
-                    <div class="img-overlay">
-                        <div class="content">
-                            <h3>Receiption</h3>
-                            <p>Where every one grabs lunch from.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 pb-3" >
-                <div class="overlay-container">
-                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
-                    <div class="img-overlay">
-                        <div class="content">
-                            <h3>Office Cafe</h3>
-                            <p>Where every one grabs lunch from.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-lg-4 col-md-12 col-sm-12 pb-3" >
-                <div class="overlay-container">
-                    <img src="<?= $url?>images/background/footer-bg-a.jpg" alt="" class="col-sm-12 office-img2">
-                    <div class="img-overlay">
-                        <div class="content">
-                            <h3>Office Cafe</h3>
-                            <p>Where every one grabs lunch from.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
+	<?php include "gallery.cmp.php"; ?>
+        
     </div>
+     
         <div class="container py-5">
             <div class="row">
 
