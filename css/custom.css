@@ -35,12 +35,6 @@
 	text-transform: uppercase;
 	font-size: 12px;
 }
-
-
-
-.social-media {
-	
-}
 .social-media .social-icons {
 	list-style: none;
 	position: fixed; 
@@ -794,7 +788,7 @@ a.line-button:hover {
 .our-offices-title span b {
     font-size: 60px !important;
     font-weight: 400 !important;
-    line-height: 0px !important;
+    line-height: 32px !important;
     display: block;
     text-align: right;
     margin-top: -18px;
@@ -855,7 +849,7 @@ span i.title-line {
     padding-bottom: 80px;
 }
 .our-offices-top-photo canvas:nth-child(1) {
-    margin-left: 58px;
+    margin-left: 45px;
 }
 @media only screen and (max-width: 991px){
 	.entry-title.our-offices-title {
@@ -976,7 +970,7 @@ span i.title-line {
 /* Conceirge Slider Css */
 .wrapper{
     position: relative;
-    height: 535px;
+    height: auto;
     width: 482px;
     overflow: hidden;
     background: #fff;
@@ -986,7 +980,7 @@ span i.title-line {
     margin-top: 0%;
 }
 img.img-fluid.with-img {
-    height: 241px !important;
+    /* height: 241px !important; */
 }
 @media(max-width:320px){
 	.wrapper {
@@ -1409,12 +1403,12 @@ h1.site-section-title.ip-marketing-local-exposure-title {
     letter-spacing: 2px;
     color: #111;
   }
-  .card {
+  .card-img {
     width: 25%;
     overflow: hidden;
     position: relative;
   }
-  .card .content {
+  .card-img .content {
     z-index: 2;
     width: 100%;
     position: absolute;
@@ -1428,27 +1422,17 @@ h1.site-section-title.ip-marketing-local-exposure-title {
     min-height: 100px;
     background: #111;
   }
-  .card .image {
+  .card-img .image {
     z-index: 1;
     height: 100%;
   }
-  .card img {
-    height: 100%;
-    width: 100%;
-    transition: all 0.5s ease;
-    transform: scale(1.2);
-  }
+
   
-  .card:hover .content {
+  .card-img:hover .content {
     bottom: 0px;
     color: #fff;
   }
-  
-  .card:hover .image img {
-    transform: scale(1);
-  }
-  
-  .card .content span:first-child {
+  .card-img .content span:first-child {
     text-transform: uppercase;
     margin-bottom: 10px;
     font-weight: 700;
@@ -1458,7 +1442,7 @@ h1.site-section-title.ip-marketing-local-exposure-title {
     font-size: 16px;
   }
   
-  .card .content span:last-child {
+  .card-img .content span:last-child {
     font-size: 14px;
     color: #18cfab;
     text-align: center;
@@ -1467,17 +1451,52 @@ h1.site-section-title.ip-marketing-local-exposure-title {
   
   
   @media screen and (max-width: 768px) {
-    .card {
-    width: 50%;
+    .card-img {
+    width: 100%;
     }
-    .card .content {
+    .card-img .content {
       bottom: 0;
     }
   }
   
-  @media screen and (max-width: 480px) {
-    .card {
+  @media screen and (max-width: 650px) {
+    .card-img {
     width: 100%;
     }
+    .project-block-one .inner-box .image-box img{
+        height: 111%;
+    }
+    .our-offices-top-photo canvas{
+    	width:100%;
+    	position:absolute;
+    	display: none;
+    }
+    
   }
+  @media screen and (max-width: 427px) {
+    .info-box.clearfix.float-right{
+        float: left !important;
+    }
+    
+  }
+  @media (width: 320px) {
+    .card-img {
+        width: 289px;
+    }
+    .portfolio{
+        min-width: 289px;
+    }
+
+  }
+
 /* Gallery css */
+
+.buying-process-header {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: -21px;
+    color: #222222;
+}
+.left-top-t {
+    left: -34px;
+}

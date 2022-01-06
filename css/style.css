@@ -167,7 +167,8 @@ input,button,select,textarea{
 ul,li{
   list-style:none;
   padding:0px;
-  margin:0px; 
+  margin:0px;
+  font-size: 16px;
 }
 
 input{
@@ -380,7 +381,7 @@ img{
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   color: #D5AF36;
-  line-height: 19px;
+  line-height: 41px;
   padding-left: 35px;
   font-weight: 300;
   margin-bottom: -6px;
@@ -390,7 +391,7 @@ img{
 .sec-title h1{
   position: relative;
   display: block;
-  font-size: 58px;
+  font-size: 48px;
   color: #1B1B1B;
   text-transform: uppercase !important;
   line-height: 4;

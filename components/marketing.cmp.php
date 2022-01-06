@@ -21,10 +21,15 @@
                             </div>
                         </div>
                 </div> 
-                <div class="col-lg-4 col-md-12 col-sm-12 title-column market-img wow fadeInUp animated" data-wow-delay="250ms" data-wow-duration="1500ms" style="background:url() no-repeat;background-size:cover;">
-                 <figure class="market image-box"><img src="<?= $url ?>images/haris/fbc.png" height="512" alt=""></figure> 
+                <div class="col-lg-4 col-md-12 col-sm-12 title-column market-img wow fadeInUp animated" data-wow-delay="250ms" data-wow-duration="1500ms">
+                <img class="img img-fluid" src="<?= $url ?>images/haris/fbc.png" height="512" alt="">
+                <div class="overlay"></div>
+                <!-- <figure class="market image-box">
+                     <img class="img img-fluid" src="<?= $url ?>images/haris/fbc.png" height="512" alt="">
+                     <div class="overlay"></div>
+                    </figure>  -->
 
-                    <div class="overlay"></div>
+                    
                     <div class="marketing title-box sec-title"> 
                         <span class="top-title animated slideInDown"> Sellers </span>
                         <h2 class="animated slideInUp">Marketing</h2>                                                

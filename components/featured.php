@@ -7,7 +7,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 service-block wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms"> 						
 						<div class="sec-title pt-5"> 
 							<h1 class = "mt-5"> Recent <br><span>Listings  </span></h1>
-							<a href= "listings.php" class = "btn line-button"> See ALl properties </a>
+							<a href= "listings" class = "btn line-button"> See ALl properties </a>
 						</div>
                     </div>
 					
@@ -15,9 +15,9 @@
 
                     <div class="col-lg-4 col-md-6 col-sm-12 service-block wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1800ms">
                         <div class="px-5"> 
-							<a href= "javascript:void(0)" class = "btn line-button"> Interactive Map  </a>
-							<a href= "listings.php" class = "btn line-button"> Property Search </a>
-							<a href= "listings.php" class = "btn line-button"> Featured Properties </a>
+							<a href= "interactive-map" class = "btn line-button"> Interactive Map  </a>
+							<a href= "listings" class = "btn line-button"> Property Search </a>
+							<a href= "listings" class = "btn line-button"> Featured Properties </a>
                         </div>
                     </div>
                 </div>

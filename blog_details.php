@@ -49,6 +49,9 @@
                                         <ul class="post-info">
                                             <li><i class="far fa-calendar-alt"></i> <?=$l->post_date;?> </li>
                                             <li><i class="fa fa-tag"></i><?=$l->post_tags;?></li>
+                                            <li>
+                                               
+                                            </li>
                                         </ul>
                                         <h4><?=$l->post_title;?></h4>
                                         <div class="text" style = "font-family: Gopher, Poppins, Oswald, sans-serif;">
