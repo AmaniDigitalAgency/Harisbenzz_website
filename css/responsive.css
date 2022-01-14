@@ -320,6 +320,9 @@
   .team-section.alternate-2{
     padding: 70px 0px;
   }
+  .video-style-two{
+    background: url('../images/background/harisbenzz.jpg') !important;
+  }
   .breadcrumb-overview  { 
 	min-height: 100vh;
 	min-width: 400px;

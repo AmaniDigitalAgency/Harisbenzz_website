@@ -22,14 +22,14 @@
                                 <figure class="image"><img src="<?= $url?>images/haris/our-team/1.png" alt=""></figure>
                             </div></a>
                             <div class="lower-content">
-                                <h3><a href="single-team.html">BULEGA
+                                <h3><a href="">BULEGA
                                      NICHOLAS</a></h3> 
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="team-block-one line-overlay bg-white">
-                            <a href="#">
+                            <a href="">
                                 <div class="image-box">
                                     <span class="line"></span>
                                     <span class="line line-bottom"></span>
@@ -37,13 +37,13 @@
                                 </div>
                             </a>    
                             <div class="lower-content">
-                                <h3><a href="single-team.html">AMANDA Diana</a></h3> 
+                                <h3><a href="">AMANDA Diana</a></h3> 
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="team-block-one line-overlay bg-white">
-                            <a href="#">                                    
+                            <a href="">                                    
                                 <div class="image-box">
                                     <span class="line"></span>
                                     <span class="line line-bottom"></span>
@@ -51,21 +51,21 @@
                                 </div>
                             </a>
                             <div class="lower-content">
-                                <h3><a href="single-team.html">JEAN F. OTHIENO</a></h3> 
+                                <h3><a href="">JEAN F. ATHIENO</a></h3> 
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="team-block-one line-overlay bg-white">
-                            <a href="#">
+                            <a href="">
                                 <div class="image-box">
                                     <span class="line"></span>
                                     <span class="line line-bottom"></span>
-                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/2.png" alt=""></figure>
+                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/yasim.png" alt=""></figure>
                                 </div>
                             </a>
                             <div class="lower-content">
-                                <h3><a href="single-team.html">AISHA N. AHMAD</a></h3> 
+                                <h3><a href="">YASMIN AHMED</a></h3> 
                             </div>
                         </div>
                     </div>    

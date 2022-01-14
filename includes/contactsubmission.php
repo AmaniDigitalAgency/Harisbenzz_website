@@ -1,5 +1,7 @@
 <?php
 require "dbh.inc.php";
+require "$url.mail.php";
+
 function contactSubmit($conn){
     if ($_SERVER["REQUEST_METHOD"] == "POST" and isset($_POST['submit-form'])) {
         $name = mysqli_real_escape_string($conn, $_POST["name"]); 
@@ -12,6 +14,7 @@ function contactSubmit($conn){
 		VALUES ('$name', '$email', '$phone', '$subject', '$message')";
         if ($conn->query($sql) === TRUE) 
         {
+          // sendMail();
                 ini_set("SMTP","mail.supremecluster.com");
                 ini_set("smtp_port","465");
                 ini_set('sendmail_from', 'info@harisbenzz.com');

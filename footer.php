@@ -2,7 +2,7 @@
         <div class="container">
             <div class="widget-section">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> Properties </h4>
                             <div class="widget-content">
@@ -16,7 +16,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> Buyers </h4>
                             <div class="widget-content">
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> Sellers </h4>
                             <div class="widget-content">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> About Us  </h4>
                             <div class="widget-content">

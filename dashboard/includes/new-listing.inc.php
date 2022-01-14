@@ -57,7 +57,7 @@ include "dbh.inc.php";
 							?>
 							<script>
 							window.alert("Post Publisin Failed");
-							//window.history.back();
+								window.history.back();
 							</script>
 						<?php	
 						}

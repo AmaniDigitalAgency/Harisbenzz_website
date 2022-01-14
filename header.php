@@ -11,7 +11,7 @@ $url   = "http://localhost/harisbenzz_website/";
 	<script data-ad-client="ca-pub-2031938804495541" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
 	<title>Haris Benzz</title>
 	<link rel="stylesheet" href="<?= $url?>fonts/stylesheet.css" />
 	<link rel="stylesheet" href="<?= $url?>css/font-awesome.min.css" /> 

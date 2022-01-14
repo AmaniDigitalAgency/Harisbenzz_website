@@ -970,7 +970,7 @@ span i.title-line {
 /* Conceirge Slider Css */
 .wrapper{
     position: relative;
-    height: auto;
+    height: 50%;
     width: 482px;
     overflow: hidden;
     background: #fff;
@@ -1457,6 +1457,9 @@ h1.site-section-title.ip-marketing-local-exposure-title {
     .card-img .content {
       bottom: 0;
     }
+    iframe{
+        width: 100%;
+        }
   }
   
   @media screen and (max-width: 650px) {
@@ -1471,12 +1474,18 @@ h1.site-section-title.ip-marketing-local-exposure-title {
     	position:absolute;
     	display: none;
     }
+    iframe{
+        width: 100%;
+        }
     
   }
   @media screen and (max-width: 427px) {
     .info-box.clearfix.float-right{
         float: left !important;
     }
+    iframe{
+        width: 100%;
+        }
     
   }
   @media (width: 320px) {
@@ -1486,6 +1495,9 @@ h1.site-section-title.ip-marketing-local-exposure-title {
     .portfolio{
         min-width: 289px;
     }
+    iframe{
+        width: 100%;
+        }
 
   }
 

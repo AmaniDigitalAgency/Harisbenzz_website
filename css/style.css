@@ -3651,7 +3651,9 @@ img.slider-image {
   padding: 159px 0px 164px 0px;
   background-attachment: fixed;
 }
-
+.video-style-two {
+    background: url('../images/background/harisbenzz.jpg') !important;
+}
 .video-style-two:before{
   position: absolute;
   content: '';

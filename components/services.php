@@ -25,7 +25,7 @@
                                                         <div class="lower-content">
                                                             <h2><a href="javascript:void(0)"> Interactive Map </a></h2>
                                                             <div class="text"> As a buyer, you can now use our google-powered interactive maps to help you locate the best property for you in your preferred area anywhere in Uganda and beyond. </div>
-															<a href="#" class = "btn line-button"> Learn More </a>
+															<a href="interactive-map" class = "btn line-button"> Learn More </a>
                                                         </div>
                                                     </div>
                                                 </div>

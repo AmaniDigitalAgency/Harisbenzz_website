@@ -22,8 +22,7 @@
                         </div>
                 </div> 
                 <div class="col-lg-4 col-md-12 col-sm-12 title-column market-img wow fadeInUp animated" data-wow-delay="250ms" data-wow-duration="1500ms">
-                <img class="img img-fluid" src="<?= $url ?>images/haris/fbc.png" height="512" alt="">
-                <div class="overlay"></div>
+                <img class="img img-fluid" src="<?= $url ?>images/haris/banners/1.png" height="512" alt="">
                 <!-- <figure class="market image-box">
                      <img class="img img-fluid" src="<?= $url ?>images/haris/fbc.png" height="512" alt="">
                      <div class="overlay"></div>
@@ -69,7 +68,7 @@
                                                     <div class="tab-content"> 
                                                         <div class="lower-content">
                                                             <h2>Multi-media Channel Marketing</h2>
-                                                            <div class="text"> As a buyer, you can now use our google-powered interactive maps to help you locate the best property for you in your preferred area anywhere in Uganda and beyond. </div>
+                                                            <div class="text"> As a seller, we ensure you that your will spend a limited on the market before it's bought. With our selling social media marketing platforms, we guarantee to get you clients off your property.  </div>
 															<a href="<?= $url ?>conatct" class = "btn line-button"> Conatct us Now </a>
                                                         </div>
                                                     </div>
@@ -78,7 +77,7 @@
                                                     <figure class="image-box line-overlay">
                                                         <span class="line"></span>
                                                         <span class="line line-bottom"></span>
-                                                        <img src="../images/resource/service-1.jpg" alt="">
+                                                        <img src="../images/resource/servic.png" alt="">
                                                     </figure>
                                                 </div>
                                             </div> 
@@ -95,7 +94,14 @@
                                                         <div class="lower-content">
                                                             <h2>Videography & Photography
                                                         </h2>
-                                                            <div class="text"> Anyone looking to sell their proplerty can now easily and flexibly list their properties with us to bring wide-reaching attention to the property they are selling </div>
+                                                            <div class="text"> 
+                                                                At Harisbenzz we give your property a virtual tour to the client through:
+                                                                <ul >
+                                                                    <li class="py-1" style="font-weight:bold;color:#D5AF36;">Photography</li>
+                                                                    <li class="py-1" style="font-weight:bold;color:#D5AF36;">Videography</li>
+                                                                    <li class="py-1" style="font-weight:bold; color:#D5AF36;">Online Events</li>
+                                                                </ul>
+                                                            </div>
 															<a href="<?= $url ?>conatct" class = "btn line-button"> Conatct us Now </a>
                                                         </div>
                                                     </div>
@@ -104,7 +110,7 @@
                                                     <figure class="image-box line-overlay">
                                                         <span class="line"></span>
                                                         <span class="line line-bottom"></span>
-                                                        <img src="../images/resource/service-2.jpg" alt="">
+                                                        <img src="../images/haris/banners/camera.png" alt="">
                                                     </figure>
                                                 </div>
                                             </div> 
@@ -120,8 +126,12 @@
                                                     <div class="tab-content"> 
                                                         <div class="lower-content">
                                                             <h2> Banner / Flyer deisgns and Distribution</h2>
-                                                            <div class="text"> Are you a real estate agent? HarisBenzz now gives you an opportunity to cover some of the most prime properties in Uganda. </div>
-															<a href="<?= $url?>sellers/marketing" class = "btn line-button"> Let us kmow</a>
+                                                            <div class="text"> 
+                                                                We at Harisbenzz give your property the publicity through our banner/flyer 
+                                                                designs which distrubted over the socials. In this way the property get the 
+                                                                attention which encourage quick sell.
+                                                            </div>
+															<a href="<?= $url?>contact" class = "btn line-button"> Let us know</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -129,7 +139,7 @@
                                                     <figure class="image-box line-overlay">
                                                         <span class="line"></span>
                                                         <span class="line line-bottom"></span>
-                                                        <img src="../images/resource/work-1.jpg" alt="">
+                                                        <img src="../images/haris/banners/1.png" alt="">
                                                     </figure>
                                                 </div>
                                             </div> 

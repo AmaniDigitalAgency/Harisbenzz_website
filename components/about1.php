@@ -1,5 +1,5 @@
    <section class="about-section pb-0">
-        <div class="container">
+        <div class="container mb-5">
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12 title-column">
                     <div class="title-box sec-title bg-white p-5"> 
@@ -17,7 +17,7 @@
                     </div>
                 </div> 
                 <div class="col-lg-5 col-md-12 col-sm-12 image-column">
-                    <figure class="image-box"><img src="<?= $url ?>images/haris/offices/offices.jpg" alt=""></figure> 
+                    <figure class="image-box"><img src="<?= $url ?>images/haris/offices/offices.png" alt=""></figure> 
                 </div>
             </div>
         </div>
