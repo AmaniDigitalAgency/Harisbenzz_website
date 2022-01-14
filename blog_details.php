@@ -38,7 +38,8 @@
 </style>
     <section class="blog-single pb-0">
         <div class="container">
-            <div class="row">
+
+							
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                     <div class="blog-single-content">
                         <div class="inner-box">
@@ -49,9 +50,9 @@
                                         <ul class="post-info">
                                             <li><i class="far fa-calendar-alt"></i> <?=$l->post_date;?> </li>
                                             <li><i class="fa fa-tag"></i><?=$l->post_tags;?></li>
-                                            <li>
-                                               
-                                            </li>
+                                            <li class = "facebook contact_sidebar_icons"><a target="_blank" href ="https://www.facebook.com/harisbenzz"><i class = "fab fa-facebook"></i></a></li> 
+                                            <li class = "facebook contact_sidebar_icons"><a href ="https://twitter.com/haris_benzz"><i class = "fab fa-twitter "></i></a></li> 
+                                            <li class = "facebook contact_sidebar_icons"><a href ="https://www.instagram.com/harisbenzz/"><i class = "fab fa-instagram "></i></a></li> 
                                         </ul>
                                         <h4><?=$l->post_title;?></h4>
                                         <div class="text" style = "font-family: Gopher, Poppins, Oswald, sans-serif;">

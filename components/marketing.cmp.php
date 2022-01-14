@@ -27,12 +27,12 @@
                      <img class="img img-fluid" src="<?= $url ?>images/haris/fbc.png" height="512" alt="">
                      <div class="overlay"></div>
                     </figure>  -->
-
+<!-- 
                     
                     <div class="marketing title-box sec-title"> 
                         <span class="top-title animated slideInDown"> Sellers </span>
                         <h2 class="animated slideInUp">Marketing</h2>                                                
-                    </div>
+                    </div> -->
                 </div>
 
                 
