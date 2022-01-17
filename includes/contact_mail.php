@@ -13,7 +13,7 @@ function sendMail($name, $email, $phone, $subject,$message){
 $mail = new PHPMailer(true);
 try {
     //Server settings
-    // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                         //Send using SMTP
     $mail->Host       = "mail.supremecluster.com";                   //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
@@ -38,18 +38,18 @@ try {
     $mail->AltBody = $message;
 
     $mail->send();
-
+    // echo 'Message has been sent';
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 
 }
-function sendRepley($name, $email, $phone, $subject,$message){
+function sendReply($name, $email, $phone, $subject,$message){
     //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                         //Send using SMTP
     $mail->Host       = "mail.supremecluster.com";                   //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
@@ -60,7 +60,7 @@ try {
 
     //Recipients
     $mail->setFrom('info@harisbenzz.com', 'Info@harisbenzz');
-    $mail->addAddress($email);           //Name is optional
+    $mail->addAddress($email, $name);  //Name is optional
     // $mail->addReplyTo($email, 'Thanks for reaching out to harisbenzz!!!!');
 
     // //Attachments
@@ -69,11 +69,11 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = "Thank You!!! ".$name;
+    $mail->Subject = "Thank You!! ".$name;
     $mail->Body    = "Thank You for reaching out to Harisbenzz. We will get back to you shortly.";
 
     $mail->send();
-    echo '<script>Message has been sent</script>';
+    echo 'Message has been sent';
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

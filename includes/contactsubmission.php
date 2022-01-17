@@ -16,6 +16,7 @@ function contactSubmit($conn){
         {
           // sendMail();
           sendMail($name, $email, $phone, $subject,$message);
+          sendReply($name, $email, $phone, $subject,$message);
           //       ini_set("SMTP","mail.supremecluster.com");
           //       ini_set("smtp_port","465");
           //       ini_set('sendmail_from', 'info@harisbenzz.com');
