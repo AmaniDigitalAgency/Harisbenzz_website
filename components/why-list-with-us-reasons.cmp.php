@@ -1,9 +1,6 @@
 <section class="bg-white p-5 wow fadeInUp animated">
 
-    <div class="container col-lg-6 m-auto">
-        <img src="<?php $url?>images/banner.png" alt="" srcset="">
-    </div>
-    <div class="container col-lg-6 m-auto">
+    <div class="container m-auto">
         <div class="title-box sec-title"  data-aios-staggered-child="true" data-aios-animation="slideInLeft" data-aios-animation-delay="0s" data-aios-reveal-mobile="false" style="animation-delay: 0s;"> 
             <h3 class="pt-5 buying-process-header">why list with us</h3>
 			<div class="content-box mt-5 "> 
@@ -34,7 +31,7 @@
                          who will love your home as much as you do.
                         </p>
                 </div> 
-                <div class="col-lg-12 col-md-12 col-sm-12 reasons mt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 reasons mt-5 mb-5">
                     <h3>We Can Better Market Your Home</h3>
                         <p>
                         When our sellers list with us, they are provided with maximum 
@@ -56,6 +53,10 @@
                                       
             </div>
         </div>
+    </div>
+    
+    <div class="container col-lg-10 ml-auto mr-auto mt-5 mb-5 text-center">
+        <a href="<?= $url ?>contact"><img src="<?= $url ?>/images/banner.png" alt="" srcset=""></a>
     </div>
     
 </section>
