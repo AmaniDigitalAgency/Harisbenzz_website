@@ -13,16 +13,18 @@
                             </span>
                         </h1>
                         <div class="our-offices-content our-offices-content-a animated fadeInUp visible" data-aios-reveal="true" data-aios-animation="fadeInUp" data-aios-animation-delay="0s" data-aios-animation-reset="false" data-aios-animation-offset="0.5" data-aios-reveal-mobile="false" style="animation-delay: 0.5s;">
-                            <p>
-                                    Choosing the correct real estate agent
-                                    to sell your home is one of the most
-                                    important decisions you’ll make. It 
-                                    can be the difference between your home 
-                                    sitting on the market for months or selling quickly,
-                                    for hundreds of thousands if not millions of dollars more.
-                                    Your home is a very personal, important, and valuable asset,
-                                    and it can be an emotional and complicated endeavor to sell
-                                    it, especially in today’s challenging marketplace.<p><br>
+                            
+                            <p> Your home is a very personal, important, and valuable asset, and it can be an emotional and complicated endeavor to sell it, especially in today’s challenging marketplace. <p><br>
+                            <p> 
+                            we understand that choosing the right Realtor is the most important 
+                            decision you will make when selling your property.
+                             <!-- We know you not 
+                            only want to work with a real estate agent who has a proven track 
+                            record, but who is also someone that you can trust. Having a quality 
+                            relationship and an overwhelming sense of mutual trust is one of our 
+                            top priorities for us at our real estate agency — coming second only 
+                            to selling your home in a reasonable time at a reasonable price. -->
+                            <p><br>
                                 <span class="contact-btn"><a href="<?= $url ?>contact">Get in touch with us</a></span>
                         </div>
                     </div>

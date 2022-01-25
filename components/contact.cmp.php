@@ -17,7 +17,9 @@
                             <div class="single-info mb-4">
                                 <div class="icon-box"></div>
                                 <h3>Phone</h3>
-                                <p><i class="flaticon-phone-call-1"></i> <a href="tel:+256772487258" style = "color: #585858;">(+256 ) 772 - 487- 258</a><br /><a href="tel:+256785347322 " style = "color: #585858;"><i class="flaticon-phone-call-1"></i> (+256 ) 785 - 347 - 322  </a></p>
+                                <p><i class="flaticon-phone-call-1"></i>
+                                 <a href="tel:+256772487258" style = "color: #585858;">(+256 ) 772 - 487- 258</a><br />
+                                 <a href="tel:+256785347322 " style = "color: #585858;"><i class="flaticon-phone-call-1"></i> (+256 ) 785 - 347 - 322  </a></p>
                             </div>
                             <div class="single-info">
                                 <div class="icon-box"></div>
