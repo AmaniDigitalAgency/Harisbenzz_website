@@ -134,7 +134,11 @@
 
 }
 
-
+@media (max-width: 766px){
+  .inner-column h1{
+    font-size: 27px !important;
+  }
+}
 
 @media only screen and (max-width: 991px){
 

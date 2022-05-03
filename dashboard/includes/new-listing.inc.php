@@ -5,17 +5,17 @@ include "dbh.inc.php";
 			
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			
-				$team_id = rand(10,100000);
-				$team_title = mysqli_real_escape_string($conn, $_POST["team_title"]); 
-				
-				$team_location = mysqli_real_escape_string($conn, $_POST["team_location"]); 
-				
-				$team_amenities = mysqli_real_escape_string($conn, $_POST["team_amenities"]); 
-				
-				$team_price = mysqli_real_escape_string($conn, $_POST["team_price"]); 
-				
-				$team_type = mysqli_real_escape_string($conn, $_POST["team_type"]); 
-				$team_details = mysqli_real_escape_string($conn, $_POST["team_details"]); 
+					$team_id = rand(10,100000);
+					$team_title = mysqli_real_escape_string($conn, $_POST["team_title"]); 
+					
+					$team_location = mysqli_real_escape_string($conn, $_POST["team_location"]); 
+					
+					$team_amenities = mysqli_real_escape_string($conn, $_POST["team_amenities"]); 
+					
+					$team_price = mysqli_real_escape_string($conn, $_POST["team_price"]); 
+					
+					$team_type = mysqli_real_escape_string($conn, $_POST["team_type"]); 
+					$team_details = mysqli_real_escape_string($conn, $_POST["team_details"]); 
 
 
 			if (isset($_FILES['post_pic']) && $_FILES['post_pic']['error'] === UPLOAD_ERR_OK)  {    

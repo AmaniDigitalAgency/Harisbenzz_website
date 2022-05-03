@@ -27,34 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="team-block-one line-overlay bg-white">
-                            <a href="">
-                                <div class="image-box">
-                                    <span class="line"></span>
-                                    <span class="line line-bottom"></span>
-                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/2.png" alt=""></figure>
-                                </div>
-                            </a>    
-                            <div class="lower-content">
-                                <h3><a href="">AMANDA Diana</a></h3> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="team-block-one line-overlay bg-white">
-                            <a href="">                                    
-                                <div class="image-box">
-                                    <span class="line"></span>
-                                    <span class="line line-bottom"></span>
-                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/2.png" alt=""></figure>
-                                </div>
-                            </a>
-                            <div class="lower-content">
-                                <h3><a href="">JEAN F. ATHIENO</a></h3> 
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="team-block-one line-overlay bg-white">
                             <a href="">
@@ -68,7 +41,63 @@
                                 <h3><a href="">YASMIN AHMED</a></h3> 
                             </div>
                         </div>
-                    </div>    
+                    </div> 
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="team-block-one line-overlay bg-white">
+                            <a href="">
+                                <div class="image-box">
+                                    <span class="line"></span>
+                                    <span class="line line-bottom"></span>
+                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/don.jpg" alt=""></figure>
+                                </div>
+                            </a>    
+                            <div class="lower-content">
+                                <h3><a href="">TUMUSIME DONALD</a></h3> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="team-block-one line-overlay bg-white">
+                            <a href="">                                    
+                                <div class="image-box">
+                                    <span class="line"></span>
+                                    <span class="line line-bottom"></span>
+                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/ibra.jpg" alt=""></figure>
+                                </div>
+                            </a>
+                            <div class="lower-content">
+                                <h3><a href="">SSEBUNYA IBRAHIM</a></h3> 
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="team-block-one line-overlay bg-white">
+                            <a href="">                                    
+                                <div class="image-box">
+                                    <span class="line"></span>
+                                    <span class="line line-bottom"></span>
+                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/nate.jpg" alt=""></figure>
+                                </div>
+                            </a>
+                            <div class="lower-content">
+                                <h3><a href="">SSEBAGALA NATHAN</a></h3> 
+                            </div>
+                        </div>
+                    </div>   
+                    <!-- <div class="col-lg-3 col-md-6 col-sm-12 team-block wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="team-block-one line-overlay bg-white">
+                            <a href="">                                    
+                                <div class="image-box">
+                                    <span class="line"></span>
+                                    <span class="line line-bottom"></span>
+                                    <figure class="image"><img src="<?= $url?>images/haris/our-team/ibra.jpg" alt=""></figure>
+                                </div>
+                            </a>
+                            <div class="lower-content">
+                                <h3><a href="">SSEBUNYA IBRAHIM</a></h3> 
+                            </div>
+                        </div>
+                    </div>    -->
                 </div>
             </div>
         </div>

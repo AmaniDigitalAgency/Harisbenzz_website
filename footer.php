@@ -1,8 +1,8 @@
-    <footer class="main-footer wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(<?= $url?>images/background/footer-bg-a.jpg); background-position: top center; background-attachment: fixed; background-size: cover;">
+<footer class="main-footer wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(<?= $url?>images/background/footer-bg-a.jpg); background-position: top center; background-attachment: fixed; background-size: cover;">
         <div class="container">
             <div class="widget-section">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> Properties </h4>
                             <div class="widget-content">
@@ -16,7 +16,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> Buyers </h4>
                             <div class="widget-content">
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> Sellers </h4>
                             <div class="widget-content">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 footer-column">
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div class="contact-widget footer-widget">
                             <h4 class="widget-title"> About Us  </h4>
                             <div class="widget-content">
@@ -71,7 +71,7 @@
 
 <!--Scroll to top-->
 <button class="scroll-top scroll-to-target" data-target="html">
-    <span class="fa fa-arrow-up"></span>
+    <span class="fa fa-chevron-up"></span>
 </button>
 
 	<div class = "social-media">
@@ -89,9 +89,22 @@
 <script src="<?= $url?>js/jquery.js"></script>
 <script src="<?= $url?>js/popper.min.js"></script>
 <script src="<?= $url?>js/bootstrap.min.js"></script>
+<!-- Website Chat Script -->
+<script type="text/javascript">
+window.Trengo = window.Trengo || {};
+window.Trengo.key = 'lkAzuSAzBMUQ1mnlUUYy';
+(function(d, script, t) {
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://cdn.widget.trengo.eu/embed.js';
+    d.getElementsByTagName('head')[0].appendChild(script);
+}(document));
+</script>
+
+<!-- Website Chat Script -->
 
 <script src="<?= $url?>js/owl.js"></script>
-<script src="<?= $url?>js/magnific.js"></script>
 <script src="<?= $url?>js/wow.js"></script>
 <script src="<?= $url?>js/validation.js"></script>
 <script src="<?= $url?>js/jquery.fancybox.js"></script>
@@ -111,9 +124,7 @@
 <script src="<?= $url?>revolution/js/revolution.extension.parallax.min.js"></script>
 <script src="<?= $url?>revolution/js/revolution.extension.slideanims.min.js"></script>
 <script src="<?= $url?>revolution/js/revolution.extension.video.min.js"></script>
-<script src="<?= $url?>js/jquery.magnific-popup.min.js"></script>
 <script src="<?= $url?>js/main-slider-script.js"></script>
-
 
 <!-- main-js -->
 <script src="<?= $url?>js/script.js"></script>
@@ -140,6 +151,6 @@
 			})
 		}
 	})
-</script>
+
 </body><!-- End of .page_wrapper -->
 </html>

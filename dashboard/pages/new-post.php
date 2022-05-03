@@ -49,7 +49,7 @@
 																	</script>
 																</div>
 															</div>
-															</div>
+														</div>
 													<div class="modal-footer no-bd">
 														<button  type="submit" class="btn btn-primary" value = "Publish post" name = "add">  Publish Post </button>  
 													</div>

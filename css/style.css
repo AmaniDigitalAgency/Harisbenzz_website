@@ -340,7 +340,7 @@ img{
   line-height: 50px;
   position: fixed;
   bottom: 105%;
-  right: 50px;
+  right: 31%;
   font-size: 16px;
   border-radius: 50%;
   z-index: 99;
@@ -351,7 +351,7 @@ img{
   transition: 1s ease;
 }
 .scroll-top.open {
-  bottom: 30px;
+  bottom: 23px;
 }
 .scroll-top:hover{
   background: #1B1B1B;
@@ -4875,10 +4875,11 @@ img.slider-image {
 .page-title .info-content{
   position: absolute;
   display: block;
-  padding: 24px;
+  padding: 21px;
   background: #FFFFFF;
   left: 0;
   top: 180px;
+  min-width: 302px;
   min-height: 278px;
   z-index: 3;
   text-align: left;
@@ -4898,11 +4899,11 @@ img.slider-image {
 	text-transform: uppercase; 
 }
 .page-title .info-content h2.list-price {
-	color: #D5AF36; 
-	font-size: 24px;
-	margin-bottom: 20px; 
-	text-transform: uppercase;
-	font-weight: 600; 
+	    color: #D5AF36;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .close-content {
 	position: absolute;
@@ -4987,10 +4988,10 @@ img.slider-image {
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
   color: #1B1B1B;
   text-transform: uppercase;
-  font-size: 40px; 
+  font-size: 38px; 
 }
 
 .single-project .inner-content .content-box .text p {
@@ -7059,22 +7060,23 @@ a.whatsapp-icon i {
 
 /* Floating Whatsapp Button */
 .float{
-	position:fixed;
-	width: 45px;
-	height: 45px;
-	bottom: 29px;
-	right: 107px;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	bottom: 90px;
+	right: 21px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
 	font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-	z-index:100;
+	z-index: 100;
 }
 
 .my-float{
 	margin-top: 6px;
+	font-size: 21px;
 }
 .story-section .card{
   padding: 25px;
