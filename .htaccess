@@ -34,7 +34,7 @@
 
 
 <IfModule mod_rewrite.c>
-RewriteEngine On
+RewriteEngine On   
 ErrorDocument 404 /404.html
 #  Rules1 Removing http:// url and only allowing https://
 RewriteCond %{HTTP_HOST} harisbenzz\.com [NC]

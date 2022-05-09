@@ -45,6 +45,9 @@
                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
                                     <input type="text" name="phone" placeholder="Phone number" required>
                                 </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 form-group" style="display:none;">
+                                    <input type="text" name="robot" placeholder="robotrics">
+                                </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 form-group">
                                 <select class="form-control" name="subject">
                                     <option>I want to buy a house</option>

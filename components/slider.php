@@ -5,8 +5,8 @@
             <div class="slide-item">
                 <div class="image-layer" style="background-image:url(images/main-slider/slider-1.jpg)"></div>
                 <div class="pattern-layer">
-                    <div class="pattern-3" style="background-image: url(images/shape/pattern-28.png);"></div>
-                    <div class="pattern-4" style="background-image: url(images/shape/pattern-29.png);"></div>
+                    <!-- <div class="pattern-3" style="background-image: url(images/shape/pattern-28.png);"></div> -->
+                    <!-- <div class="pattern-4" style="background-image: url(images/shape/pattern-29.png);"></div> -->
                 </div>
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -24,8 +24,8 @@
             <div class="slide-item">
                 <div class="image-layer" style="background-image:url(images/main-slider/slider-3.jpg)"></div>
                 <div class="pattern-layer">
-                    <div class="pattern-3" style="background-image: url(images/shape/pattern-28.png);"></div>
-                    <div class="pattern-4" style="background-image: url(images/shape/pattern-29.png);"></div>
+                    <!-- <div class="pattern-3" style="background-image: url(images/shape/pattern-28.png);"></div> -->
+                    <!-- <div class="pattern-4" style="background-image: url(images/shape/pattern-29.png);"></div> -->
                 </div>
                 <div class="auto-container">
                     <div class="row clearfix">
@@ -43,8 +43,8 @@
             <div class="slide-item">
                 <div class="image-layer" style="background-image:url(images/main-slider/slide-7.jpg)"></div>
                 <div class="pattern-layer">
-                    <div class="pattern-3" style="background-image: url(images/shape/pattern-28.png);"></div>
-                    <div class="pattern-4" style="background-image: url(images/shape/pattern-29.png);"></div>
+                    <!-- <div class="pattern-3" style="background-image: url(images/shape/pattern-28.png);"></div> -->
+                    <!-- <div class="pattern-4" style="background-image: url(images/shape/pattern-29.png);"></div> -->
                 </div>
                 <div class="auto-container">
                     <div class="row clearfix">
